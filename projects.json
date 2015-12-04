@@ -1,0 +1,163 @@
+{
+    "projects": [
+        {
+            "title": "InspectorWidget",
+            "eventName": "in progress",
+            "thumb": {
+                "stem": "InspectorWidget.jpg",
+                "width": 267,
+                "height": 212
+            },
+            "image": {
+                "stem":"InspectorWidget.jpg"
+            }
+        },
+        {
+            "title": "SonixCycle",
+            "eventName": "in progress",
+            "thumb": {
+                "stem": "SonixCycleDashboardFF1010.jpg",
+                "width": 303,
+                "height": 212
+            },
+            "image": {
+                "stem":"SonixCycleDashboardFF1010.jpg"
+            }
+        },
+        {
+            "title": "InfoPhys",
+            "eventYear": 2016,
+            "eventName": "ACM TEI",
+            "thumb": {
+                "stem": "InfoPhys.jpg",
+                "width": 318,
+                "height": 212
+            },
+            "image": {
+                "stem":"InfoPhys.jpg"
+            }
+        }, 
+        {
+            "title": "Designing interaction for browsing media collections (by similarity)",
+            "eventYear": 2015,
+            "eventName": "PhD",
+            "thumb": {
+                "stem": "PhDCover.jpg",
+                "width": 318,
+                "height": 212
+            },
+            "image": {
+                "stem":"PhDThumbs.png"
+            }
+        },
+        {
+            "title": "AudioMetro",
+            "eventYear": 2014,
+            "eventName": "ISMIR+AudioMostly",
+            "thumb": {
+                "stem": "AudioMetro.png",
+                "width": 384,
+                "height": 212
+            },
+            "image": {
+                "stem":"AudioMetro.png"
+            }
+        },
+        {
+            "title": "Auracle",
+            "eventYear": 2014,
+            "eventName": "eNTERFACE",
+            "thumb": {
+                "stem": "AuracleRekall.jpg",
+                "width": 291,
+                "height": 212
+            },
+            "image": {
+                "stem": "AuracleRekall.jpg"
+            }
+        },
+        {
+            "title": "Tangible Needle, Digital Haystack",
+            "eventYear": 2014,
+            "eventName": "ACM TEI",
+            "thumb":{
+                "stem": "TangibleNeedle.jpg",
+                "width": 344,
+                "height": 212
+            },
+            "video": {
+                "type": "vimeo",
+                "id": "98852283"
+            }
+        },
+        {
+            "title": "LavaAMP",
+            "eventYear": 2013,
+            "eventName": "ACM UIST SIC",
+            "thumb": {
+                "stem": "LavaAMP.jpg",
+                "width": 258,
+                "height": 212
+            },
+            "video": {
+                "type": "vimeo",
+                "id": "80902656"
+            }
+        },
+        {
+            "title": "The Listening Room",
+            "eventYear": 2013,
+            "eventName": "KISS",
+            "thumb": {
+                "stem": "TheListeningRoomFreeze.jpg",
+                "width": 283,
+                "height": 212
+            },
+            "image": {
+                "stem": "TheListeningRoomFreeze.jpg"
+            }
+        },
+        {
+            "title": "VideoCycle",
+            "eventYear": 2013,
+            "eventName": "MMM",
+            "thumb": {
+                "stem": "VideoCycleDemo@VBS2013.jpg",
+                "width": 320,
+                "height": 232
+            },
+            "image": {
+                "stem": "VideoCycleShowdown@VBS2013.jpg"
+            }
+        },
+        {
+            "title": "LoopJam",
+            "eventYear": 2012,
+            "eventName": "NIME",
+            "thumb": {
+                "stem": "LoopJamSeneffe.jpg",
+                "width": 272,
+                "height": 212
+            },
+            "video": {
+                "type": "vimeo",
+                "id": "26168917"
+            }
+        },
+        {
+            "title": "DeviceCycle",
+
+            "eventYear": 2010,
+            "eventName": "NIME",
+            "thumb": {
+                "stem": "DeviceCycle.png",
+                "width": 277,
+                "height": 212
+            },
+            "video": {
+                "type": "vimeo",
+                "id": "67201841"
+            }
+        }
+    ]
+}
