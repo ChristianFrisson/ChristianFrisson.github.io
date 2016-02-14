@@ -1,18 +1,6 @@
 {
     "projects": [
         {
-            "title": "InspectorWidget",
-            "eventName": "in progress",
-            "thumb": {
-                "stem": "InspectorWidget.jpg",
-                "width": 267,
-                "height": 212
-            },
-            "image": {
-                "stem":"InspectorWidget.jpg"
-            }
-        },
-        {
             "title": "SonixCycle",
             "eventName": "in progress",
             "thumb": {
@@ -22,6 +10,19 @@
             },
             "image": {
                 "stem":"SonixCycleDashboardFF1010.jpg"
+            }
+        },
+        {
+            "title": "InspectorWidget",
+            "eventName": "ACM CHI",
+            "eventYear": 2016,
+            "thumb": {
+                "stem": "InspectorWidget.jpg",
+                "width": 267,
+                "height": 212
+            },
+            "image": {
+                "stem":"InspectorWidget.jpg"
             }
         },
         {
