@@ -1,164 +1,798 @@
 {
-    "projects": [
-        {
-            "title": "SonixCycle",
-            "eventName": "in progress",
-            "thumb": {
-                "stem": "SonixCycleDashboardFF1010.jpg",
-                "width": 303,
-                "height": 212
+    "projects": [{
+        "title": "{WebAudio;Stereo}Haptics",
+        "subtitle": "Tutorials on Haptics through (Web)Audio",
+        "contribs": [{
+            "type": "organization",
+            "desc": "co-organizing the WAC tutorial"
+        }, {
+            "type": "design",
+            "desc": "proxying haptics through audio directly in a browser"
+        }, {
+            "type": "development",
+            "desc": "adapting WebPd WebAudio-based runtime and NexusUI HTML5 widgets (JavaScript)"
+        }],
+        "people": [
+            ["Christian", "Frisson"],
+            ["Thomas", "Pietrzak"],
+            ["Siyan", "Zhao"],
+            ["Zachary", "Schwemler"],
+            ["Adam", "Fritz"],
+            ["Ali", "Israr"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "studio",
+            "title": "Stereohaptics: A Haptic Interaction Toolkit for Tangible Virtual Experiences",
+            "authors": [
+                ["Ali", "Israr"],
+                ["Siyan", "Zhao"],
+                ["Kyna", "McIntosh"],
+                ["Zachary", "Schwemler"],
+                ["Adam", "Fritz"],
+                ["John", "Mars"],
+                ["Job", "Bedford"],
+                ["Christian", "Frisson"],
+                ["Ivan", "Huerta"],
+                ["Maggie", "Kosek"],
+                ["Charalampos", "Koniaris"],
+                ["Kenny", "Mitchell"]
+            ],
+            "conference": "ACM SIGGRAPH",
+            "booktitle": "ACM SIGGRAPH 2016 Studio",
+            "series": "ACM SIGGRAPH",
+            "year": 2016,
+            "location": {
+                "city": "Anaheim",
+                "country": "USA"
             },
-            "image": {
-                "stem":"SonixCycleDashboardFF1010.jpg"
+            "date": {
+                "start": "2016-04-04",
+                "end": "2016-04-06"
+            },
+            "acmDLAuthorizeId": "N25052"
+        }, {
+            "venue": "conference",
+            "type": "tutorial",
+            "title": "WebAudioHaptics: Tutorial on Haptics with Web Audio",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Thomas", "Pietrzak"],
+                ["Siyan", "Zhao"],
+                ["Zachary", "Schwemler"],
+                ["Adam", "Fritz"],
+                ["Ali", "Israr"]
+            ],
+            "conference": "Web Audio Conference",
+            "booktitle": "Proceedings of the 2nd Web Audio Conference",
+            "series": "WAC",
+            "year": 2016,
+            "location": {
+                "city": "Atlanta",
+                "country": "USA"
+            },
+            "date": {
+                "start": "2016-04-04",
+                "end": "2016-04-06"
             }
+        }],
+        "eventYear": 2016,
+        "eventName": "WAC + ACM SIGGRAPH Studio",
+        "thumb": {
+            "stem": "WebAudioHaptics.png",
+            "width": 408,
+            "height": 212
         },
-        {
-            "title": "InspectorWidget",
-            "eventName": "ACM CHI",
-            "eventYear": 2016,
-            "thumb": {
-                "stem": "InspectorWidget.jpg",
-                "width": 267,
-                "height": 212
-            },
-            "image": {
-                "stem":"InspectorWidget.jpg"
-            }
+        "image": {
+            "stem": "WebAudioHapticsOverview.png"
         },
-        {
-            "title": "InfoPhys",
-            "eventYear": 2016,
-            "eventName": "ACM TEI",
-            "thumb": {
-                "stem": "InfoPhys.jpg",
-                "width": 318,
-                "height": 212
-            },
-            "image": {
-                "stem":"InfoPhys.jpg"
-            }
-        }, 
-        {
-            "title": "Designing interaction for browsing media collections (by similarity)",
-            "eventYear": 2015,
-            "eventName": "PhD",
-            "thumb": {
-                "stem": "PhDCover.jpg",
-                "width": 318,
-                "height": 212
-            },
-            "image": {
-                "stem":"PhDThumbs.png"
-            }
-        },
-        {
-            "title": "AudioMetro",
-            "eventYear": 2014,
-            "eventName": "ISMIR+AudioMostly",
-            "thumb": {
-                "stem": "AudioMetro.png",
-                "width": 384,
-                "height": 212
-            },
-            "image": {
-                "stem":"AudioMetro.png"
-            }
-        },
-        {
-            "title": "Auracle",
-            "eventYear": 2014,
-            "eventName": "eNTERFACE",
-            "thumb": {
-                "stem": "AuracleRekall.jpg",
-                "width": 291,
-                "height": 212
-            },
-            "image": {
-                "stem": "AuracleRekall.jpg"
-            }
-        },
-        {
-            "title": "Tangible Needle, Digital Haystack",
-            "eventYear": 2014,
-            "eventName": "ACM TEI",
-            "thumb":{
-                "stem": "TangibleNeedle.jpg",
-                "width": 344,
-                "height": 212
-            },
-            "video": {
-                "type": "vimeo",
-                "id": "98852283"
-            }
-        },
-        {
-            "title": "LavaAMP",
-            "eventYear": 2013,
-            "eventName": "ACM UIST SIC",
-            "thumb": {
-                "stem": "LavaAMP.jpg",
-                "width": 258,
-                "height": 212
-            },
-            "video": {
-                "type": "vimeo",
-                "id": "80902656"
-            }
-        },
-        {
-            "title": "The Listening Room",
-            "eventYear": 2013,
-            "eventName": "KISS",
-            "thumb": {
-                "stem": "TheListeningRoomFreeze.jpg",
-                "width": 283,
-                "height": 212
-            },
-            "image": {
-                "stem": "TheListeningRoomFreeze.jpg"
-            }
-        },
-        {
-            "title": "VideoCycle",
-            "eventYear": 2013,
-            "eventName": "MMM",
-            "thumb": {
-                "stem": "VideoCycleDemo@VBS2013.jpg",
-                "width": 320,
-                "height": 232
-            },
-            "image": {
-                "stem": "VideoCycleShowdown@VBS2013.jpg"
-            }
-        },
-        {
-            "title": "LoopJam",
-            "eventYear": 2012,
-            "eventName": "NIME",
-            "thumb": {
-                "stem": "LoopJamSeneffe.jpg",
-                "width": 272,
-                "height": 212
-            },
-            "video": {
-                "type": "vimeo",
-                "id": "26168917"
-            }
-        },
-        {
-            "title": "DeviceCycle",
-
-            "eventYear": 2010,
-            "eventName": "NIME",
-            "thumb": {
-                "stem": "DeviceCycle.png",
-                "width": 277,
-                "height": 212
-            },
-            "video": {
-                "type": "vimeo",
-                "id": "67201841"
-            }
+        "code": {
+            "host": "github",
+            "account": "WebAudioHaptics"
         }
-    ]
+    }, {
+        "title": "InspectorWidget",
+        "subtitle": "A System to Analyze Users Behaviors in Their Applications",
+        "contribs": [{
+            "type": "design",
+            "desc": "reverse-engineering usage logs through computer vision (and accessibility) collection/processing/annotation"
+        }, {
+            "type": "development",
+            "desc": "Collector plugins (C), Processor server (OpenCV/C++/node.js), Iterator timeline/annotator (JavaScript)"
+        }],
+        "people": [
+            ["Christian", "Frisson"],
+            ["Sylvain", "Malacria"],
+            ["Gilles", "Bailly"],
+            ["Thierry", "Dutoit"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "late-breaking-result",
+            "presentation": "poster",
+            "title": "InspectorWidget: A System to Analyze Users Behaviors in Their Applications",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Sylvain", "Malacria"],
+                ["Gilles", "Bailly"],
+                ["Thierry", "Dutoit"]
+            ],
+            "conference": "ACM Conference on Human Factors in Computing Systems",
+            "booktitle": "Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
+            "series": "CHI",
+            "year": 2016,
+            "location": {
+                "city": "San Jose",
+                "state": "California",
+                "country": "USA"
+            },
+            "date": {
+                "start": "2016-05-07",
+                "end": "2016-05-12"
+            }
+        }],
+        "eventName": "ACM CHI EA",
+        "eventYear": 2016,
+        "thumb": {
+            "stem": "InspectorWidget.jpg",
+            "width": 267,
+            "height": 212
+        },
+        "image": {
+            "stem": "InspectorWidget.jpg"
+        },
+        "code": {
+            "host": "github",
+            "account": "InspectorWidget"
+        }
+    }, {
+        "title": "InfoPhys",
+        "subtitle": "Direct Manipulation of Information Visualisation through a Force-Feedback Pointing Device",
+        "contribs": [{
+            "type": "design",
+            "desc": "planar force-feedback display for topic modeling manipulation"
+        }, {
+            "type": "development",
+            "desc": "conversion from svg in PaperMachines (d3.js JavaScript) to x3d in H3D (C++)"
+        }],
+        "dataset": "ACM TEI 2007-2015 proceedings (772 PDFs)",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Bruno", "Dumas"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "work-in-progress",
+            "presentation": "demo+poster",
+            "title": "InfoPhys: Direct Manipulation of Information Visualisation through a Force-Feedback Pointing Device",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Bruno", "Dumas"]
+            ],
+            "conference": "ACM Tangible Embedded and Embodied Interaction",
+            "booktitle": "Proceedings of the ACM Tangible Embedded and Embodied Interaction conference",
+            "series": "TEI",
+            "year": 2016,
+            "location": {
+                "country": "The Netherlands",
+                "city": "Eindhoven"
+            },
+            "date": {
+                "start": "2016-02-14",
+                "end": "2016-02-17"
+            }
+        }],
+        "eventYear": 2016,
+        "eventName": "ACM TEI",
+        "thumb": {
+            "stem": "InfoPhys.jpg",
+            "width": 318,
+            "height": 212
+        },
+        "image": {
+            "stem": "InfoPhysPosterBody.jpg"
+        },
+        "code": {
+            "host": "github",
+            "account": "ChristianFrisson",
+            "repo": "InfoPhys"
+        }
+    }, {
+        "title": "SonixCycle",
+        "subtitle": "A Semantic and Content-Based Search User Interface for Browsing Large Collections of Foley Sounds",
+        "contribs": [{
+            "type": "design",
+            "desc": "visual browsing of sounds by similarity among search engine results"
+        }, {
+            "type": "development",
+            "desc": "AudioMetro panel (d3.js) for the LucidWorks Banana/Silk dashboard (JavaScript) for the Apache Solr search engine (Java)"
+        }],
+        "dataset": "freefield 1010 (7690 sounds), UrbanSounds8K (8732 sounds)",
+        "people": [
+            ["Gabriel", "Urbain"],
+            ["Christian", "Frisson"],
+            ["Alexis", "Moinet"],
+            ["Thierry", "Dutoit"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "work-in-progress",
+            "presentation": "poster",
+            "title": "A Semantic and Content-Based Search User Interface for Browsing Large Collections of Foley Sounds",
+            "authors": [
+                ["Gabriel", "Urbain"],
+                ["Christian", "Frisson"],
+                ["Alexis", "Moinet"],
+                ["Thierry", "Dutoit"]
+            ],
+            "conference": "ACM AudioMostly",
+            "booktitle": "Proceedings of the ACM Audio Mostly conference",
+            "series": "AudioMostly",
+            "year": 2016,
+            "location": {
+                "city": "Norrköping",
+                "country": "Sweden"
+            },
+            "date": {
+                "start": "2016-10-04",
+                "end": "2016-10-06"
+            },
+            "pages": "272-277",
+            "doi": "http://dx.doi.org/10.1145/2986416.2986436"
+        }],
+        "eventName": "ACM AudioMostly",
+        "eventYear": 2016,
+        "thumb": {
+            "stem": "SonixCycleDashboardFF1010.jpg",
+            "width": 303,
+            "height": 212
+        },
+        "image": {
+            "stem": "SonixCycleDashboardFF1010.jpg"
+        }
+    }, {
+        "title": "Designing interaction for browsing media collections (by similarity)",
+        "contribs": [{
+            "type": "design",
+            "desc": "information visualization techniques and input devices for browsing media collections by similarity"
+        }, {
+            "type": "development",
+            "desc": "many plugins and applications part of the MediaCycle framework (Qt/OpenSceneGraph/C++)"
+        }],
+        "people": [
+            ["Thierry", "Dutoit"],
+            ["Stéphane", "Dupont"],
+            ["Xavier", "Siebert"],
+            ["Jean", "Vanderdonckt"],
+            ["Marcelo", "Wanderley"],
+            ["Jef", "Wijsen"]
+        ],
+        "publications": [{
+            "type": "phdthesis",
+            "title": "Designing interaction for browsing media collections (by similarity)",
+            "authors": [
+                ["Christian", "Frisson"]
+            ],
+            "university": "University of Mons",
+            "universityShort": "UMONS",
+            "year": 2015,
+            "location": {
+                "city": "Mons",
+                "country": "Belgium"
+            },
+            "date": {
+                "start": "2010-09-01",
+                "end": "2015-02-17"
+            },
+            "pages": "277"
+        }],
+        "eventYear": 2015,
+        "eventName": "PhD",
+        "thumb": {
+            "stem": "PhDCover.jpg",
+            "width": 318,
+            "height": 212
+        },
+        "image": {
+            "stem": "PhDThumbs.png"
+        }
+    }, {
+        "title": "AudioMetro",
+        "subtitle": "directing search for sound designers through content-based cues",
+        "contribs": [{
+            "type": "design",
+            "desc": "content-based information visualization (glyphs, proximity grid, dimension reduction) for browsing sound collections by similarity",
+            "long": "visual browsing of sound collections by similarity: content-based glyphs mapping perceptual sharpness (audio) to brightness and contour (visual) positioned in a starfield display using Student t-distributed Stochastic Neighbor Embedding (tSNE) for dimension reduction, then a proximity grid optimized for preserving direct neighbors)"
+        }, {
+            "type": "development",
+            "desc": "plugins and applications part of the MediaCycle framework (Qt/OpenSceneGraph/C++)"
+        }],
+        "dataset": "One Laptop Per Child (OLPC) Free Sound Samples (subsets of hundreds of sounds)",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Stéphane", "Dupont"],
+            ["Willy", "Yvart"],
+            ["Nicolas", "Riche"],
+            ["Xavier", "Siebert"],
+            ["Thierry", "Dutoit"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "presentation": "slideshows",
+            "title": "AudioMetro: directing search for sound designers through content-based cues",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Stéphane", "Dupont"],
+                ["Willy", "Yvart"],
+                ["Nicolas", "Riche"],
+                ["Xavier", "Siebert"],
+                ["Thierry", "Dutoit"]
+            ],
+            "conference": "ACM AudioMostly",
+            "booktitle": "Proceedings of the 9th ACM Conference on Interaction with Sound",
+            "series": "AudioMostly",
+            "year": 2014,
+            "location": {
+                "city": "Aalborg",
+                "country": "Denmark"
+            },
+            "date": {
+                "start": "2014-10-01",
+                "end": "2014-10-03"
+            },
+            "pages": "",
+            "doi": "http://dx.doi.org/10.1145/2636879.2636880"
+        }, {
+            "venue": "conference",
+            "presentation": "poster",
+            "title": "A proximity grid optimization method to improve audio search for sound design",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Stéphane", "Dupont"],
+                ["Willy", "Yvart"],
+                ["Nicolas", "Riche"],
+                ["Xavier", "Siebert"],
+                ["Thierry", "Dutoit"]
+            ],
+            "conference": "International Symposium on Music Information Retrieval",
+            "booktitle": "Proceedings of the 15th International Symposium on Music Information Retrieval",
+            "series": "ISMIR",
+            "year": 2014,
+            "location": {
+                "city": "Taipei",
+                "country": "Taiwan"
+            },
+            "date": {
+                "start": "2014-10-27",
+                "end": "2014-10-31"
+            },
+            "pages": ""
+        }],
+        "eventYear": 2014,
+        "eventName": "ISMIR + ACM AudioMostly",
+        "thumb": {
+            "stem": "AudioMetro.png",
+            "width": 384,
+            "height": 212
+        },
+        "image": {
+            "stem": "AudioMetro.png"
+        }
+    }, {
+        "title": "Auracle",
+        "subtitle": "how are salient cues situated in audiovisual content?",
+        "contribs": [{
+            "type": "organization",
+            "desc": "coordinating the 4-week workshop project"
+        }, {
+            "type": "design",
+            "desc": "user evaluation protocol and analysis of the influence of sound on reading sonically-augmented comic books"
+        }, {
+            "type": "development",
+            "desc": "hack of Rekall multimedia timeline (C++) for browsing gaze/audio features, plugins for the Social Signal Interpretation (SSI) toolkit (C++)"
+        }],
+        "dataset": "NYC 2123 comic book, Creative Commons movies (VODO, Blender animations, and shorts directed on purpose by Willy Yvart and Charles-Alexandre Delestage)",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Nicolas", "Riche"],
+            ["Antoine", "Coutrot"],
+            ["Charles-Alexandre", "Delestage"],
+            ["Stéphane", "Dupont"],
+            ["Onur", "Ferhat"],
+            ["Nathalie", "Guyader"],
+            ["Sidi Ahmed", "Mahmoudi"],
+            ["Matei", "Mancas"],
+            ["Parag K.", "Mital"],
+            ["Alicia", "Prieto Echaniz"],
+            ["François", "Rocca"],
+            ["Alexis", "Rochette"],
+            ["Willy", "Yvart"]
+        ],
+        "publications": [{
+            "venue": "workshop",
+            "presentation": "slideshow",
+            "title": "Auracle: how are salient cues situated in audiovisual content",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Nicolas", "Riche"],
+                ["Antoine", "Coutrot"],
+                ["Charles-Alexandre", "Delestage"],
+                ["Stéphane", "Dupont"],
+                ["Onur", "Ferhat"],
+                ["Nathalie", "Guyader"],
+                ["Sidi Ahmed", "Mahmoudi"],
+                ["Matei", "Mancas"],
+                ["Parag K.", "Mital"],
+                ["Alicia", "Prieto Echaniz"],
+                ["François", "Rocca"],
+                ["Alexis", "Rochette"],
+                ["Willy", "Yvart"]
+            ],
+            "conference": "10th Summer School on Multimodal Interfaces",
+            "booktitle": "Proceedings of the 10th Summer School on Multimodal Interfaces",
+            "series": "eNTERFACE",
+            "year": 2014,
+            "location": {
+                "city": "Bilbao",
+                "country": "Spain"
+            },
+            "date": {
+                "start": "2014-06-08",
+                "end": "2014-07-05"
+            },
+            "pages": "",
+            "doi": ""
+        }],
+        "eventYear": 2014,
+        "eventName": "eNTERFACE",
+        "thumb": {
+            "stem": "AuracleRekall.jpg",
+            "width": 291,
+            "height": 212
+        },
+        "image": {
+            "stem": "AuracleRekall.jpg"
+        }
+    }, {
+        "title": "Tangible Needle, Digital Haystack",
+        "subtitle": "Tangible Interfaces for Reusing Media Content Organized by Similarity",
+        "contribs": [{
+            "type": "design",
+            "desc": "tangible rotary intra-media navigation in long videos, force-feedback planar inter-media nativation in sound collections"
+        }, {
+            "type": "development",
+            "desc": "vinyl platter rotation tracking by computer vision (circular gray code) with OpenCV (C++), force-feedback effects through libifalcon (C++)"
+        }],
+        "dataset": "",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Willy", "Yvart"],
+            ["Rudi", "Giot"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "presentation": "demo",
+            "title": "Tangible Needle, Digital Haystack: Tangible Interfaces for Reusing Media Content Organized by Similarity",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["François", "Rocca"],
+                ["Stéphane", "Dupont"],
+                ["Thierry", "Dutoit"],
+                ["Grobet", "Damien"],
+                ["Rudi", "Giot"],
+                ["Mohammed", "El Brouzi"],
+                ["Samir", "Bouaziz"],
+                ["Willy", "Yvart"],
+                ["Sylvie", "Merviel"]
+            ],
+            "conference": "ACM Conference on Tangible, Embedded and Embodied Interaction",
+            "booktitle": "Proceedings of the 8th International Conference on Tangible, Embedded and Embodied Interaction",
+            "series": "TEI",
+            "year": 2014,
+            "location": {
+                "city": "Munich",
+                "country": "Germany"
+            },
+            "date": {
+                "start": "2014-02-16",
+                "end": "2014-02-19"
+            },
+            "pages": "37-38",
+            "doi": "10.1145/2540930.2540983"
+        }],
+        "eventYear": 2014,
+        "eventName": "ACM TEI",
+        "thumb": {
+            "stem": "TangibleNeedle.jpg",
+            "width": 344,
+            "height": 212
+        },
+        "video": {
+            "host": "vimeo",
+            "id": "98852283"
+        }
+    }, {
+        "title": "LavaAMP",
+        "subtitle": "surrounding the beats in music tracks by streaming colorful blobs",
+        "contribs": [{
+            "type": "organization",
+            "desc": "bringing 2 student groups to contest"
+        }, {
+            "type": "design",
+            "desc": "furniture design to fit the Microsoft PumpSpark Fountain Development Kit and lava lamp-like tubes in a refurbished vinyl player"
+        }, {
+            "type": "development",
+            "desc": "realtime music analysis in the PureData visual dataflow environment through [aubio] objects"
+        }],
+        "dataset": "",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Eric", "Schayes"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "student contest",
+            "presentation": "demo",
+            "title": "LavaAMP: surrounding the beats in music tracks by streaming colorful blobs",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Eric", "Schayes"]
+            ],
+            "conference": "Student Innovation Contest of the 26th Annual ACM Symposium on User Interface Software and Technology",
+            "series": "UIST SIC",
+            "booktitle": "",
+            "year": 2013,
+            "location": {
+                "city": "St. Andrews",
+                "country": "Scotland, UK"
+            },
+            "date": {
+                "start": "2013-10-08",
+                "end": "2013-10-11"
+            },
+            "pages": "",
+            "doi": ""
+        }],
+        "eventYear": 2013,
+        "eventName": "ACM UIST SIC",
+        "thumb": {
+            "stem": "LavaAMP.jpg",
+            "width": 258,
+            "height": 212
+        },
+        "video": {
+            "host": "vimeo",
+            "id": "80902656"
+        }
+    }, {
+        "title": "The Listening Room",
+        "subtitle": "",
+        "contribs": [{
+            "type": "organization",
+            "desc": "curating sound collections from sound designers"
+        }, {
+            "type": "design",
+            "desc": "browsing sounds plotted through circular waveforms and 'effected' by crowd bodily movements"
+        }, {
+            "type": "development",
+            "desc": "information visualization pipeline (OpenSceneGraph/C++), tracking using a Microsoft Kinect (Qt/OpenNI)"
+        }],
+        "dataset": "Ilker Isikyakar (USA), Gauthier Keyaerts (BE), Olga Oseth (USA), Carla Scaletti (USA)",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Rudi", "Giot"],
+            ["Carla", "Scaletti"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "invited installation",
+            "presentation": "demo",
+            "title": "The Listening Room",
+            "authors": [
+                ["Christian", "Frisson"]
+            ],
+            "conference": "5th annual Kyma International Sound Symposium",
+            "booktitle": "",
+            "series": "KISS",
+            "year": 2013,
+            "location": {
+                "city": "Brussels",
+                "country": "Belgium"
+            },
+            "date": {
+                "start": "2013-09-12",
+                "end": "2013-09-15"
+            },
+            "url": "http://kiss2013.symbolicsound.com"
+        }],
+        "eventYear": 2013,
+        "eventName": "KISS",
+        "thumb": {
+            "stem": "TheListeningRoomFreeze.jpg",
+            "width": 283,
+            "height": 212
+        },
+        "image": {
+            "stem": "TheListeningRoomFreeze.jpg"
+        }
+    }, {
+        "title": "VideoCycle",
+        "subtitle": "User-Friendly Navigation by Similarity in Video Databases",
+        "contribs": [{
+            "type": "design",
+            "desc": "intra-media navigation (rotary / pointing) in long videos for visual known-item search tasks"
+        }, {
+            "type": "development",
+            "desc": "visualization (Qt/OpenSceneGraph), off-the-shelf input (jog wheel) through hidapi (C++)"
+        }],
+        "dataset": "",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Stéphane", "Dupont"],
+            ["Alexis", "Moinet"],
+            ["Cécile", "Picard-Limpens"],
+            ["Thierry", "Ravet"],
+            ["Xavier", "Siebert"],
+            ["Thierry", "Dutoit"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "",
+            "presentation": "live evaluation",
+            "title": "VideoCycle: User-Friendly Navigation by Similarity in Video Databases",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Stéphane", "Dupont"],
+                ["Alexis", "Moinet"],
+                ["Cécile", "Picard-Limpens"],
+                ["Thierry", "Ravet"],
+                ["Xavier", "Siebert"],
+                ["Thierry", "Dutoit"]
+            ],
+            "conference": "Video Browser Showdown (VBS) of the Multimedia Modeling conference",
+            "booktitle": "Advances in Multimedia Modeling, 19th International Conference, Proceedings, Part II",
+            "series": "MMM VBS",
+            "year": 2013,
+            "location": {
+                "city": "Huangshan",
+                "country": "China"
+            },
+            "date": {
+                "start": "2013-01-07",
+                "end": "2013-01-09"
+            },
+            "pages": "550-553",
+            "doi": "10.1007/978-3-642-35728-2_66"
+        }],
+        "eventYear": 2013,
+        "eventName": "MMM VBS",
+        "thumb": {
+            "stem": "VideoCycleDemo@VBS2013.jpg",
+            "width": 320,
+            "height": 232
+        },
+        "image": {
+            "stem": "VideoCycleShowdown@VBS2013.jpg"
+        }
+    }, {
+        "title": "LoopJam",
+        "subtitle": "turning the dance floor into a collaborative instrumental map",
+        "contribs": [{
+            "type": "organization",
+            "desc": "curating sound collections from sound designers"
+        }, {
+            "type": "design",
+            "desc": "browsing sounds plotted as dots and triggered by crowd pathways"
+        }, {
+            "type": "development",
+            "desc": "information visualization pipeline (OpenSceneGraph/C++), tracking using a Microsoft Kinect (Qt/OpenNI)"
+        }],
+        "dataset": "",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Stéphane", "Dupont"],
+            ["Julien", "Leroy"],
+            ["Alexis", "Moinet"],
+            ["Thierry", "Ravet"],
+            ["Xavier", "Siebert"],
+            ["Thierry", "Dutoit"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "presentation": "demo",
+            "title": "LoopJam: turning the dance floor into a collaborative instrumental map",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Stéphane", "Dupont"],
+                ["Julien", "Leroy"],
+                ["Alexis", "Moinet"],
+                ["Thierry", "Ravet"],
+                ["Xavier", "Siebert"],
+                ["Thierry", "Dutoit"]
+            ],
+            "conference": "New Interfaces for Musical Expression",
+            "booktitle": "Proceedings of the New Interfaces for Musical Expression",
+            "series": "NIME",
+            "year": 2012,
+            "location": {
+                "city": "Ann Arbor",
+                "state": "Michigan",
+                "country": "USA"
+            },
+            "date": {
+                "start": "2012-05-21",
+                "end": "2012-05-23"
+            },
+            "pages": "",
+            "doi": ""
+        }],
+        "eventYear": 2012,
+        "eventName": "NIME",
+        "thumb": {
+            "stem": "LoopJamSeneffe.jpg",
+            "width": 272,
+            "height": 212
+        },
+        "video": {
+            "host": "vimeo",
+            "id": "26168917"
+        }
+    }, {
+        "title": "DeviceCycle",
+        "subtitle": "rapid and reusable prototyping of gestural interfaces, applied to audio browsing by similarity",
+        "contribs": [{
+            "type": "design",
+            "desc": "rapid prototyping of input with off-the-shelf devices"
+        }, {
+            "type": "development",
+            "desc": "objects (C++) and abstractions for the PureData visual dataflow environment"
+        }],
+        "dataset": "",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Stéphane", "Dupont"],
+            ["Xavier", "Siebert"],
+            ["Damien", "Tardieu"],
+            ["Thierry", "Dutoit"],
+            ["Benoit", "Macq"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "presentation": "demo",
+            "title": "DeviceCycle: rapid and reusable prototyping of gestural interfaces, applied to audio browsing by similarity",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Stéphane", "Dupont"],
+                ["Xavier", "Siebert"],
+                ["Damien", "Tardieu"],
+                ["Thierry", "Dutoit"],
+                ["Benoit", "Macq"]
+            ],
+            "conference": "New Interfaces for Musical Expression",
+            "booktitle": "Proceedings of the New Interfaces for Musical Expression",
+            "series": "NIME",
+            "year": 2014,
+            "location": {
+                "city": "Sydney",
+                "country": "Australia"
+            },
+            "date": {
+                "start": "2010-06-15",
+                "end": "2010-06-18"
+            },
+            "pages": "",
+            "doi": ""
+        }],
+        "eventYear": 2010,
+        "eventName": "NIME",
+        "thumb": {
+            "stem": "DeviceCycle.png",
+            "width": 277,
+            "height": 212
+        },
+        "video": {
+            "host": "vimeo",
+            "id": "67201841"
+        }
+    }]
 }
