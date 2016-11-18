@@ -311,7 +311,8 @@ var parallelism = (function($) { var _ = {
 										.css('min-height', '100%')
 										.css('top', 0)
 										.css('left', 0)
-										.attr('title', $item.text());
+										// Christian: don't set popup caption through img title
+                                        //.attr('title', $item.text());
 
 								// inner (for fade effect).
 									$item.wrapInner('<div class="inner" />');
@@ -492,9 +493,20 @@ var parallelism = (function($) { var _ = {
 						popupLoaderText: '',
 						selector: '.thumb a.image',
 						usePopupCaption: true,
+                        caption: function(a) { 
+                            // Christian: get caption generated in projects.js
+                            var caption = ""; 
+                            if(a && a[0])
+                            {
+                                caption = a[0].__data__.caption;
+                            }
+                            return caption;
+                        },
 						usePopupCloser: false,
 						usePopupDefaultStyling: false,
-						usePopupNav: true
+						usePopupNav: true,
+                        popupCaptionHeight: 500,
+                        
 					});
 
 				// Trigger resize event.
@@ -544,12 +556,24 @@ var parallelism = (function($) { var _ = {
 						popupSpeed: 0,
 						selector: '.thumb a.image',
 						useBodyOverflow: false,
-						usePopupCaption: false,
+						//usePopupCaption: false,
 						usePopupCloser: false,
 						usePopupDefaultStyling: false,
 						usePopupLoader: false,
-						usePopupNav: false,
-						windowMargin: 0
+						//usePopupNav: false,
+						windowMargin: 0,
+                        selector: '.thumb a.image',
+                        usePopupCaption: true,
+                        caption: function(a) { 
+                            // Christian: get caption generated in projects.js
+                            var caption = ""; 
+                            if(a && a[0])
+                            {
+                                caption = a[0].__data__.caption;
+                            }
+                            return caption;
+                        },
+                        usePopupNav: true,
 					});
 
 			},
