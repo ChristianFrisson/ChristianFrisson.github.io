@@ -129,7 +129,8 @@
             "date": {
                 "start": "2016-05-07",
                 "end": "2016-05-12"
-            }
+            },
+            "acmDLAuthorizeId": "N25054"
         }],
         "eventName": "ACM CHI EA",
         "eventYear": 2016,
@@ -180,7 +181,8 @@
             "date": {
                 "start": "2016-02-14",
                 "end": "2016-02-17"
-            }
+            },
+            "acmDLAuthorizeId": "N25065"
         }],
         "eventYear": 2016,
         "eventName": "ACM TEI",
@@ -237,6 +239,7 @@
                 "start": "2016-10-04",
                 "end": "2016-10-06"
             },
+            "acmDLAuthorizeId": "N27714",
             "pages": "272-277",
             "doi": "http://dx.doi.org/10.1145/2986416.2986436"
         }],
@@ -340,6 +343,7 @@
                 "start": "2014-10-01",
                 "end": "2014-10-03"
             },
+            "acmDLAuthorizeId": "N25066",
             "pages": "",
             "doi": "http://dx.doi.org/10.1145/2636879.2636880"
         }, {
@@ -497,6 +501,7 @@
                 "start": "2014-02-16",
                 "end": "2014-02-19"
             },
+            "acmDLAuthorizeId": "79056",
             "pages": "37-38",
             "doi": "10.1145/2540930.2540983"
         }],
