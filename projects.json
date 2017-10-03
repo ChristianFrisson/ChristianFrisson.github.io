@@ -22,7 +22,6 @@
         ],
         "publications": [{
             "venue": "conference",
-            "type": "demo",
             "presentation": "demo",
             "title": "Designing Vibrotactile Widgets with Printed Actuators and Sensors",
             "authors": [
