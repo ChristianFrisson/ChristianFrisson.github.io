@@ -1,5 +1,65 @@
 {
-    "projects": [{
+    "projects": [
+		{
+        "title": "VibroTactileWidgets",
+        "subtitle": "Designing Vibrotactile Widgets with Printed Actuators and Sensors",
+        "contribs": [{
+            "type": "design",
+            "desc": "designing vibrotactile pushbuttons by replicating state-of-the-art force-displacement curves"
+        }, {
+            "type": "development",
+            "desc": "PureData (Purr-Data) objects for capacitive sensors and piezo actuators chips (C++) and patches for pushbuttons"
+        }],
+        "people": [
+            ["Christian", "Frisson"],
+            ["Julien", "Decaudin"],
+            ["Thomas", "Pietrzak"],
+            ["Alexander", "Ng"],
+            ["Pauline", "Poncet"],
+            ["Fabrice", "Casset"],
+            ["Antoine", "Latour"],
+            ["Stephen", "Brewster"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "demo",
+            "presentation": "demo",
+            "title": "Designing Vibrotactile Widgets with Printed Actuators and Sensors",
+            "authors": [
+	            ["Christian", "Frisson"],
+	            ["Julien", "Decaudin"],
+	            ["Thomas", "Pietrzak"],
+	            ["Alexander", "Ng"],
+	            ["Pauline", "Poncet"],
+	            ["Fabrice", "Casset"],
+	            ["Antoine", "Latour"],
+	            ["Stephen", "Brewster"]
+            ],
+            "conference": "30th ACM User Interface Software and Technology Symposium",
+            "booktitle": "Proceedings of the 30th Annual ACM Symposium Adjunct on User Interface Software and Technology",
+            "series": "UIST",
+            "year": 2017,
+            "location": {
+                "city": "Quebec",
+                "state": "Qc",
+                "country": "Canada"
+            },
+            "date": {
+                "start": "2017-05-22",
+                "end": "2017-10-25"
+            }
+        }],
+        "eventName": "ACM UIST Adjunct",
+        "eventYear": 2017,
+        "thumb": {
+            "stem": "VibroTactileWidgets.jpg",
+            "width": 379,
+            "height": 212
+        },
+        "image": {
+            "stem": "VibroTactileWidgets.jpg"
+        }
+    }, {
         "title": "{WebAudio;Stereo}Haptics",
         "subtitle": "Tutorials on Haptics through (Web)Audio",
         "contribs": [{
