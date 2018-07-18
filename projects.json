@@ -1,6 +1,73 @@
 {
     "projects": [
 		{
+        "title": "EnergyVis",
+        "subtitle": "Democratizing Open Energy Data for Public Discourse using Visualization",
+        "contribs": [{
+            "type": "organization",
+            "desc": "presenting the demo"
+        }],
+        "people": [
+            ["Søren", "Knudsen"],
+            ["Jo", "Vermeulen"],
+            ["Doris", "Kosminsky"],
+            ["Jagoda", "Walny"],
+            ["Mieka", "West"],
+            ["Bon", "Adriel Aseniero"],
+            ["Lindsay", "MacDonald Vermeulen"],
+            ["Charles", "Perin"],
+			["Lien", "Quach"],
+			["Peter", "Buk"],
+			["Katrina", "Tabuli"],
+			["Shreya", "Chopra"],
+			["Wesley", "Willett"],
+			["Sheelagh", "Carpendale"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "presentation": "demo",
+            "title": "Democratizing Open Energy Data for Public Discourse using Visualization",
+            "authors": [
+	            ["Søren", "Knudsen"],
+	            ["Jo", "Vermeulen"],
+	            ["Doris", "Kosminsky"],
+	            ["Jagoda", "Walny"],
+	            ["Mieka", "West"],
+	            ["Bon", "Adriel Aseniero"],
+	            ["Lindsay", "MacDonald Vermeulen"],
+	            ["Charles", "Perin"],
+				["Lien", "Quach"],
+				["Peter", "Buk"],
+				["Katrina", "Tabuli"],
+				["Shreya", "Chopra"],
+				["Wesley", "Willett"],
+				["Sheelagh", "Carpendale"]
+            ],
+            "conference": "35th ACM Conference on Human Factors in Computing Systems",
+            "booktitle": "Proceedings of the 2018 CHI Conference Extended Abstracts on Human Factors in Computing Systems",
+            "series": "CHI",
+            "year": 2018,
+            "location": {
+                "city": "Montreal",
+                "state": "Qc",
+                "country": "Canada"
+            },
+            "date": {
+                "start": "2018-04-21",
+                "end": "2018-04-26"
+            }
+        }],
+        "eventName": "ACM CHI EA",
+        "eventYear": 2018,
+        "thumb": {
+            "stem": "EnergyVisCHI2018.jpg",
+            "width": 265,
+            "height": 212
+        },
+        "image": {
+            "stem": "EnergyVisCHI2018.jpg"
+        }
+    }, {
         "title": "VibroTactileWidgets",
         "subtitle": "Designing Vibrotactile Widgets with Printed Actuators and Sensors",
         "contribs": [{
