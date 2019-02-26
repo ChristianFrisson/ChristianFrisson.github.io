@@ -40,8 +40,14 @@ function initProjects(thumbHeight) {
                 var a = document.createElement("a");
                 a.className = "image";
                 if (d.video !== undefined) {
-                    a.href = "http://vimeo.com/" + d.video.id;
-                    a.setAttribute("data-poptrox", "vimeo,800x480");
+                    if (d.video.host === "vimeo"){
+                        a.href = "http://vimeo.com/" + d.video.id;
+                        a.setAttribute("data-poptrox", "vimeo,800x480");
+                    }
+                    else if (d.video.host === "youtube"){
+                        a.href = "http://youtube.com/watch?v=" + d.video.id;
+                        a.setAttribute("data-poptrox", "youtube,800x480");
+                    }
                 } else if (d.image !== undefined) {
                     a.href = "images/fulls/" + d.image.stem;
                 } else {
