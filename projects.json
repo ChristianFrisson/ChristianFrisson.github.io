@@ -66,6 +66,10 @@
         },
         "image": {
             "stem": "EnergyVisCHI2018.jpg"
+        },
+        "video": {
+            "host": "youtube",
+            "id": "COC0YSLeC9I"
         }
     }, {
         "title": "VibroTactileWidgets",
