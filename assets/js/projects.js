@@ -45,7 +45,7 @@ function initProjects(thumbHeight) {
                         a.setAttribute("data-poptrox", "vimeo,800x480");
                     }
                     else if (d.video.host === "youtube"){
-                        a.href = "http://youtube.com/watch?v=" + d.video.id;
+                        a.href = "http://youtu.be/" + d.video.id;
                         a.setAttribute("data-poptrox", "youtube,800x480");
                     }
                 } else if (d.image !== undefined) {
