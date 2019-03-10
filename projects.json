@@ -324,6 +324,10 @@
         "image": {
             "stem": "InfoPhysPosterBody.jpg"
         },
+        "video": {
+            "host": "youtube",
+            "id": "C-Au3ZQgmRM"
+        },
         "code": {
             "host": "github",
             "account": "ChristianFrisson",
