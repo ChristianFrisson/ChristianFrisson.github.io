@@ -55,7 +55,8 @@
             "date": {
                 "start": "2018-04-21",
                 "end": "2018-04-26"
-            }
+            },
+            "acmDLAuthorizeId": "N678103"
         }],
         "eventName": "ACM CHI EA",
         "eventYear": 2018,
@@ -117,7 +118,8 @@
             "date": {
                 "start": "2017-05-22",
                 "end": "2017-10-25"
-            }
+            },
+            "acmDLAuthorizeId": "N678104"
         }],
         "eventName": "ACM UIST Adjunct",
         "eventYear": 2017,
@@ -635,7 +637,7 @@
                 "start": "2014-02-16",
                 "end": "2014-02-19"
             },
-            "acmDLAuthorizeId": "79056",
+            "acmDLAuthorizeId": "N678115",
             "pages": "37-38",
             "doi": "10.1145/2540930.2540983"
         }],
