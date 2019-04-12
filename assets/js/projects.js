@@ -143,7 +143,7 @@ function initProjects(thumbHeight) {
                                 d.caption += ' <a href="http://dl.acm.org/authorize?'
                                 d.caption += publication.acmDLAuthorizeId
                                 d.caption += '" title="ACM DL Author-ize service">'
-                                d.caption += '<img src="http://dl.acm.org/images/oa.gif" width="20" height="20" border="0" alt="[ACM-DL]" style="vertical-align:middle"/></a>';
+                                d.caption += '<img src="images/ACM-DL-Logo-flat-CMYK-no-text.svg.png" width="38" height="18" border="0" alt="[ACM-DL]" style="vertical-align:middle"/></a>';
                             }
                         } else if (publication.university !== undefined) {
                             d.caption += " at ";
