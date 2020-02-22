@@ -21,6 +21,8 @@ function initProjects(thumbHeight) {
             .attr("class", "item thumb")
         article.append(function(d) {
             var h2 = document.createElement("h2");
+            var award = ( d.publications.filter(p => p.award !== undefined).length > 0 );
+
             var innerHTML = d.title;
             innerHTML += " (";
             if (d.eventName !== undefined) {
@@ -33,6 +35,14 @@ function initProjects(thumbHeight) {
                 innerHTML += d.eventYear;
             }
             innerHTML += ")";
+
+            if(award){
+                innerHTML += "";
+                innerHTML += "<i class='icon fa-";
+                innerHTML += "star"
+                innerHTML += "'></i> ";
+            }
+
             h2.innerHTML = innerHTML;
             return h2;
         });
@@ -70,6 +80,7 @@ function initProjects(thumbHeight) {
                 d.caption += d.title;
 
                 if (d.publications === undefined) {
+                    
                     d.caption += " (";
                     if (d.eventName !== undefined) {
                         d.caption += d.eventName;
@@ -117,12 +128,18 @@ function initProjects(thumbHeight) {
                             if (publication.presentation === "oral") d.caption += " presentation"
                             d.caption += " "
                         }
-                        if (publication.conference !== undefined) {
-                            d.caption += "at ";
-                            if (publication.conference.split("ACM").length === 1) {
-                                d.caption += "the ";
+                        if (publication.conference !== undefined || publication.journal !== undefined) {
+                            if(publication.conference !== undefined){
+                                d.caption += "at ";
+                                // if (publication.conference.split("ACM").length === 1) {
+                                //     d.caption += "the ";
+                                // }
+                                d.caption += publication.conference;
                             }
-                            d.caption += publication.conference;
+                            else if(publication.journal !== undefined){
+                                d.caption += "in ";
+                                d.caption += publication.journal;
+                            } 
                             if (publication.series !== undefined && publication.series !== publication.conference) {
                                 d.caption += " ("
                                 d.caption += publication.series;
@@ -163,6 +180,20 @@ function initProjects(thumbHeight) {
 
                         //}
                     });
+                    d.caption += "</li>";
+                }
+
+                var awards = d.publications.filter(p => p.award !== undefined);
+                if(awards.length > 0){
+                    var award = awards[0].award;
+                    d.caption += "<li>"
+                    d.caption += "<i class='icon fa-";
+                    d.caption += "star"
+                    d.caption += "'></i> ";
+                    d.caption += "award: "
+                    if (award.url !== undefined) d.caption += "<a href='" + award.url + "'>";
+                    d.caption += award.title;
+                    if (award.url !== undefined) d.caption += "</a>";
                     d.caption += "</li>";
                 }
 
