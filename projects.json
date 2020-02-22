@@ -1,6 +1,79 @@
 {
     "projects": [
 		{
+            "title": "DataChangesEverything",
+            "subtitle": "Challenges and Opportunities in Data Visualization Design Handoff",
+            "contribs": [{
+                "type": "development",
+                "desc": "prototyping tools for facilitating data visualization design handoff"
+            }],
+            "people": [
+                ["Jagoda", "Walny"],
+                ["Mieka", "West"],
+                ["Doris", "Kosminsky"],
+                ["Søren", "Knudsen"],
+                ["Sheelagh", "Carpendale"],
+                ["Wesley", "Willett"]
+            ],
+            "publications": [{
+                "venue": "conference",
+                "presentation": "slideshow",
+                "title": "Challenges and Opportunities in Data Visualization Design Handoff",
+                "authors": [
+                    ["Jagoda", "Walny"],
+                    ["Mieka", "West"],
+                    ["Doris", "Kosminsky"],
+                    ["Søren", "Knudsen"],
+                    ["Sheelagh", "Carpendale"],
+                    ["Wesley", "Willett"]
+                ],
+                "conference": "IEEE InfoVis 2019",
+                "booktitle": "IEEE Transactions on Visualization and Computer Graphics",
+                "series": "InfoVis",
+                "year": 2019,
+                "location": {
+                    "city": "Vancouver",
+                    "state": "BC",
+                    "country": "Canada"
+                },
+                "date": {
+                    "start": "2018-04-21",
+                    "end": "2018-04-26"
+                },
+                "award": {
+                    "title": "InfoVis Best Paper",
+                    "url": "http://ieeevis.org/year/2019/info/awards/best-paper-awards"
+                }
+            },{
+                "venue": "journal",
+                "presentation": "article",
+                "title": "Challenges and Opportunities in Data Visualization Design Handoff",
+                "authors": [
+                    ["Jagoda", "Walny"],
+                    ["Mieka", "West"],
+                    ["Doris", "Kosminsky"],
+                    ["Søren", "Knudsen"],
+                    ["Sheelagh", "Carpendale"],
+                    ["Wesley", "Willett"]
+                ],
+                "journal": "IEEE TVCG 2020",
+                "booktitle": "IEEE Transactions on Visualization and Computer Graphics",
+                "series": "TVCG",
+                "year": 2020,
+                "doi": "http://dx.doi.org/10.1109/TVCG.2019.2934538"
+            }],
+            "eventName": "IEEE InfoVis 2019 + TVCG 2020",
+
+            "thumb": {
+                "stem": "DataChangesDesignProcess.svg",
+                "width": 666,
+                "height": 212
+            },
+            "video": {
+                "host": "vimeo",
+                "id": "360483702"
+            }
+        }, {
         "title": "EnergyVis",
         "subtitle": "Democratizing Open Energy Data for Public Discourse using Visualization",
         "contribs": [{
@@ -457,7 +530,7 @@
         ],
         "publications": [{
             "venue": "conference",
-            "presentation": "slideshows",
+            "presentation": "slideshow",
             "title": "AudioMetro: directing search for sound designers through content-based cues",
             "authors": [
                 ["Christian", "Frisson"],
