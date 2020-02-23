@@ -834,6 +834,73 @@
             "stem": "TheListeningRoomFreeze.jpg"
         }
     }, {
+        "title": "MashtaCycle",
+        "subtitle": "on-stage improvised audio collage by content-based similarity and gesture recognition",
+        "contribs": [{
+            "type": "organization",
+            "desc": "engineering and scientific lead, co-supervision of Fabien Grisard (MSc)"
+        }, {
+            "type": "design",
+            "desc": "inspiration from sound painting for gestures"
+        }, {
+            "type": "development",
+            "desc": "sound playback/synthesis engine (RtAudio+STK C++), direct manipulation of presets using motorized faders (RtMidi C++)"
+        }],
+        "dataset": "Gauthier Keyaerts (BE)",
+        "people": [
+            ["Christian", "Frisson"],
+            ["Gauthier", "Keyaerts"],
+            ["Fabien", "Grisard"],
+            ["Stéphane", "Dupont"],
+            ["Thierry", "Ravet"],
+            ["François", "Zajéga"],
+            ["Laura", "Colmenares Guerra"],
+            ["Todor", "Todoroff"],
+            ["Thierry", "Dutoit"]
+        ],
+        "publications": [{
+            "venue": "conference",
+            "type": "paper",
+            "presentation": "presentation and installation",
+            "title": "MashtaCycle: on-stage improvised audio collage by content-based similarity and gesture recognition",
+            "authors": [
+                ["Christian", "Frisson"],
+                ["Gauthier", "Keyaerts"],
+                ["Fabien", "Grisard"],
+                ["Stéphane", "Dupont"],
+                ["Thierry", "Ravet"],
+                ["François", "Zajéga"],
+                ["Laura", "Colmenares Guerra"],
+                ["Todor", "Todoroff"],
+                ["Thierry", "Dutoit"]
+            ],
+            "conference": "5th International Conference on Intelligent Technologies for Interactive Entertainment",
+            "booktitle": "Springer LNICST",
+            "series": "INTETAIN",
+            "year": 2013,
+            "location": {
+                "city": "Mons",
+                "country": "Belgium"
+            },
+            "date": {
+                "start": "2013-07-03",
+                "end": "2013-07-05"
+            },
+            "url": "http://archive.intetain.org/2013/",
+            "doi": "10.1007/978-3-319-03892-6_14"
+        }],
+        "eventYear": 2013,
+        "eventName": "Springer INTETAIN",
+        "thumb": {
+            "stem": "MashtaCycle.jpg",
+            "width": 251,
+            "height": 212
+        },
+        "video": {
+            "host": "vimeo",
+            "id": "66930229"
+        }
+    }, {
         "title": "VideoCycle",
         "subtitle": "User-Friendly Navigation by Similarity in Video Databases",
         "contribs": [{
