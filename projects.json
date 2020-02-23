@@ -60,7 +60,7 @@
                 "booktitle": "IEEE Transactions on Visualization and Computer Graphics",
                 "series": "TVCG",
                 "year": 2020,
-                "doi": "http://dx.doi.org/10.1109/TVCG.2019.2934538"
+                "doi": "10.1109/TVCG.2019.2934538"
             }],
             "eventName": "IEEE InfoVis 2019 + TVCG 2020",
 
@@ -129,7 +129,8 @@
                 "start": "2018-04-21",
                 "end": "2018-04-26"
             },
-            "acmDLAuthorizeId": "N678103"
+            "acmDLAuthorizeId": "N678103",
+            "doi": "10.1145/3170427.3186539"
         }],
         "eventName": "ACM CHI EA",
         "eventYear": 2018,
@@ -192,7 +193,8 @@
                 "start": "2017-05-22",
                 "end": "2017-10-25"
             },
-            "acmDLAuthorizeId": "N678104"
+            "acmDLAuthorizeId": "N678104",
+            "doi": "10.1145/3131785.3131800"
         }],
         "eventName": "ACM UIST Adjunct",
         "eventYear": 2017,
@@ -205,7 +207,7 @@
             "stem": "VibroTactileWidgets.jpg"
         }
     }, {
-        "title": "{WebAudio;Stereo}Haptics",
+        "title": "WebAudioHaptics + StereoHaptics",
         "subtitle": "Tutorials on Haptics through (Web)Audio",
         "contribs": [{
             "type": "organization",
@@ -255,7 +257,8 @@
                 "start": "2016-04-04",
                 "end": "2016-04-06"
             },
-            "acmDLAuthorizeId": "N25052"
+            "acmDLAuthorizeId": "N25052",
+            "doi": "10.1145/2929484.2970273"
         }, {
             "venue": "conference",
             "type": "tutorial",
@@ -335,7 +338,8 @@
                 "start": "2016-05-07",
                 "end": "2016-05-12"
             },
-            "acmDLAuthorizeId": "N25054"
+            "acmDLAuthorizeId": "N25054",
+            "doi": "10.1145/2851581.2892388"
         }],
         "eventName": "ACM CHI EA",
         "eventYear": 2016,
@@ -387,7 +391,8 @@
                 "start": "2016-02-14",
                 "end": "2016-02-17"
             },
-            "acmDLAuthorizeId": "N25065"
+            "acmDLAuthorizeId": "N25065",
+            "doi": "10.1145/2839462.2856545"
         }],
         "eventYear": 2016,
         "eventName": "ACM TEI",
@@ -450,7 +455,7 @@
             },
             "acmDLAuthorizeId": "N27714",
             "pages": "272-277",
-            "doi": "http://dx.doi.org/10.1145/2986416.2986436"
+            "doi": "10.1145/2986416.2986436"
         }],
         "eventName": "ACM AudioMostly",
         "eventYear": 2016,
@@ -554,7 +559,7 @@
             },
             "acmDLAuthorizeId": "N25066",
             "pages": "",
-            "doi": "http://dx.doi.org/10.1145/2636879.2636880"
+            "doi": "10.1145/2636879.2636880"
         }, {
             "venue": "conference",
             "presentation": "poster",
@@ -579,7 +584,8 @@
                 "start": "2014-10-27",
                 "end": "2014-10-31"
             },
-            "pages": ""
+            "pages": "",
+            "doi": "10.5281/zenodo.1417245"
         }],
         "eventYear": 2014,
         "eventName": "ISMIR + ACM AudioMostly",
@@ -653,8 +659,7 @@
                 "start": "2014-06-08",
                 "end": "2014-07-05"
             },
-            "pages": "",
-            "doi": ""
+            "pages": ""
         }],
         "eventYear": 2014,
         "eventName": "eNTERFACE",
@@ -764,8 +769,7 @@
                 "start": "2013-10-08",
                 "end": "2013-10-11"
             },
-            "pages": "",
-            "doi": ""
+            "pages": ""
         }],
         "eventYear": 2013,
         "eventName": "ACM UIST SIC",
@@ -938,7 +942,7 @@
                 "end": "2012-05-23"
             },
             "pages": "",
-            "doi": ""
+            "doi": "10.5281/zenodo.1178255"
         }],
         "eventYear": 2012,
         "eventName": "NIME",
@@ -995,7 +999,7 @@
                 "end": "2010-06-18"
             },
             "pages": "",
-            "doi": ""
+            "doi": "10.5281/zenodo.1177771"
         }],
         "eventYear": 2010,
         "eventName": "NIME",
