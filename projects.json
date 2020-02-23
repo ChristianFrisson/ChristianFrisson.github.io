@@ -844,7 +844,7 @@
             "desc": "inspiration from sound painting for gestures"
         }, {
             "type": "development",
-            "desc": "sound playback/synthesis engine (RtAudio+STK C++), direct manipulation of presets using motorized faders (RtMidi C++)"
+            "desc": "sound playback/synthesis/effects engine (RtAudio+STK C++), direct manipulation of presets using motorized faders (RtMidi C++)"
         }],
         "dataset": "Gauthier Keyaerts (BE)",
         "people": [
