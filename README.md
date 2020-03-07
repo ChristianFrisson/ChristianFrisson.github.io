@@ -11,12 +11,12 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 Projects item/thumbs are generated using d3.js (d3js.org) in assets/js/projects.js
 by loading projects.json.
 
-There is a slight modification in assets/js/main.js to make sure that across all browsers 
+There is a slight modification in assets/js/parallelism/main.js to make sure that across all browsers 
 projects item/thumbs are generated before their layout is computed.
 
 In future versions of this portfolio, jQuery may be fully replaced by d3.js.
 
-## Introduction to Paralellism
+## Introduction to Parallelism
 
 It's done! Parallelism was an idea I mocked up a few months ago but, due to other
 committments, didn't get around to putting to code until recently. Different to
@@ -30,7 +30,7 @@ Feedback, bug reports, and comments are not only welcome, but strongly encourage
 AJ
 n33.co @n33co dribbble.com/n33
 
-Instructions for Paralellism:
+Instructions for Parallelism:
 
 	Overview:
 
