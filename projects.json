@@ -203,8 +203,9 @@
             "width": 379,
             "height": 212
         },
-        "image": {
-            "stem": "VibroTactileWidgets.jpg"
+        "video": {
+            "host": "youtube",
+            "id": "yWpjaupPd4Y"
         }
     }, {
         "title": "WebAudioHaptics + StereoHaptics",
@@ -1034,7 +1035,7 @@
         "subtitle": "rapid and reusable prototyping of gestural interfaces, applied to audio browsing by similarity",
         "contribs": [{
             "type": "design",
-            "desc": "rapid prototyping of input with off-the-shelf devices"
+            "desc": "rapid prototyping of interaction with off-the-shelf input devices"
         }, {
             "type": "development",
             "desc": "objects (C++) and abstractions for the PureData visual dataflow environment"
