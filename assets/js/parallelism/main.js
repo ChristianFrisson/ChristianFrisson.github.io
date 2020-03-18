@@ -214,7 +214,7 @@ var parallelism = (function($) { var _ = {
 							if (_.settings.centerVertically)
 								_.objects.main
 									.css('top', '50%')
-									.css('margin-top', (-1 * (_.objects.main.outerHeight() / 2)) + _.settings.verticalNudge);
+									// .css('margin-top', (-1 * (_.objects.main.outerHeight() / 2)) + _.settings.verticalNudge);
 
 						// Resize/reposition SZs.
 							window.setTimeout(function() {
@@ -301,7 +301,7 @@ var parallelism = (function($) { var _ = {
 						// Image?
 							if ($img.length > 0) {
 
-								var $itemInner, $h2;
+								var $itemInner, $h3;
 
 								// img.
 									$img
@@ -505,7 +505,8 @@ var parallelism = (function($) { var _ = {
 						usePopupCloser: false,
 						usePopupDefaultStyling: false,
 						usePopupNav: true,
-                        popupCaptionHeight: 500,
+						popupCaptionHeight: 0, // requires: usePopupDefaultStyling: true
+						windowMargin: 100
                         
 					});
 
@@ -618,7 +619,7 @@ var parallelism = (function($) { var _ = {
 						_.objects.window = $(window),
 						_.objects.wrapper = $('#wrapper'),
 						_.objects.body = $('body'),
-						_.objects.main = $('#main'),
+						_.objects.main = $('#parallelism'),
 						_.objects.reel = $('#reel'),
 						/*
                          * Christian: finding items originally located here 

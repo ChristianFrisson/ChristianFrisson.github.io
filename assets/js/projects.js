@@ -20,7 +20,7 @@ function initProjects(thumbHeight) {
             })
             .attr("class", "item thumb")
         article.append(function(d) {
-            var h2 = document.createElement("h2");
+            var h3 = document.createElement("h3");
             var award = ( d.publications.filter(p => p.award !== undefined).length > 0 );
 
             var innerHTML = d.title;
@@ -38,13 +38,13 @@ function initProjects(thumbHeight) {
 
             if(award){
                 innerHTML += "";
-                innerHTML += "<i class='icon fa-";
+                innerHTML += "<i class='fas fa-";
                 innerHTML += "star"
                 innerHTML += "'></i> ";
             }
 
-            h2.innerHTML = innerHTML;
-            return h2;
+            h3.innerHTML = innerHTML;
+            return h3;
         });
         article.append(function(d) {
                 var a = document.createElement("a");
@@ -106,7 +106,7 @@ function initProjects(thumbHeight) {
                 var thesis = false;
                 if (d.publications !== undefined) {
                     d.caption += "<li>"
-                    d.caption += "<i class='icon fa-";
+                    d.caption += "<i class='fas fa-";
                     d.caption += "info-circle"
                     d.caption += "'></i> ";
                     d.caption += "dissemination: ";
@@ -168,7 +168,7 @@ function initProjects(thumbHeight) {
                                 d.caption += ' <a href="https://doi.org/'
                                 d.caption += publication.doi
                                 d.caption += '" title="Digital Object Identifier (DOI)">'
-                                d.caption += '<i class="icon fa-file"></i></a>'
+                                d.caption += '<i class="fas fa-file-alt"></i></a>'
                             }
                         } else if (publication.university !== undefined) {
                             d.caption += " at ";
@@ -195,7 +195,7 @@ function initProjects(thumbHeight) {
                 if(awards.length > 0){
                     var award = awards[0].award;
                     d.caption += "<li>"
-                    d.caption += "<i class='icon fa-";
+                    d.caption += "<i class='fas fa-";
                     d.caption += "star"
                     d.caption += "'></i> ";
                     d.caption += "award: "
@@ -215,10 +215,10 @@ function initProjects(thumbHeight) {
 
                 if (d.people !== undefined) {
                     d.caption += "<li>";
-                    d.caption += "<i class='icon fa-";
+                    d.caption += "<i class='fas fa-";
                     d.caption += "users"
                     d.caption += "'></i> ";
-                    d.caption += (thesis ? "jury: " : "in collaboration with: ");
+                    d.caption += (thesis ? "jury: " : "collaborator(s): ");
                     for (var n = 0; n < d.people.length; n++) {
                         if (d.people[n][0] !== "Christian" && d.people[n][1] !== "Frisson") {
                             /*var author= people.find(
@@ -243,8 +243,9 @@ function initProjects(thumbHeight) {
                                     d.caption += ", ";
                                 }
                             }
-
-
+                            if (n % 8 === 7){
+                                d.caption += "<br/>";
+                            }
                         }
                     }
                     d.caption += "</li>";
@@ -256,48 +257,49 @@ function initProjects(thumbHeight) {
 
                     d.caption += "<i title='"
                     d.caption += "my contributions: ";
-                    d.caption += "' class='icon fa-";
+                    d.caption += "' class='fas fa-";
                     d.caption += "briefcase"
-                    d.caption += "'></i> my contributions: ";
+                    d.caption += "'></i> my contributions: <br/>";
 
 
-                    //d.caption += "<ul>"
+                    d.caption += "<ul>"
                     d.contribs.forEach(function(contrib, i) {
-                        if (i > 0) d.caption += ",";
-                        if (i === d.contribs.length - 1) d.caption += "</li><li>"
-                            //d.caption += "<li>"; 
-                        d.caption += " ";
+                        // if (i > 0) d.caption += ",";
+                        // if (i === d.contribs.length - 1) d.caption += "</li><li>"
+                        d.caption += "<li>"; 
+                        // d.caption += " ";
 
                         if (contrib.type === "development") {
                             d.caption += "<i title='"
                             d.caption += "development";
-                            d.caption += "' class='icon fa-";
+                            d.caption += "' class='fas fa-";
                             d.caption += "code"
-                            d.caption += "'></i>";
+                            d.caption += "'></i> development: ";
 
                             if (d.code !== undefined && d.code.host === "github") {
                                 var url = "https://github.com/" + d.code.account + "/"
                                 if (d.code.repo !== undefined) url += d.code.repo;
                                 d.caption += " <a href='" + url + "' title='"
                                 d.caption += url
-                                d.caption += "' class='icon fa-github'>";
-                                d.caption += "<span class='label'>Github</span>"
+                                d.caption += "' class='fab fa-github'>";
+                                // d.caption += "<span class='label'>Github</span>"
                                 d.caption += "</a>";
                             }
                         } else {
-                            d.caption += " <i title='" + contrib.type + "' class='icon fa-";
+                            d.caption += " <i title='" + contrib.type + "' class='fas fa-";
                             if (contrib.type === "organization") {
                                 d.caption += "sitemap"
+                                d.caption += "'></i> organization: ";
                             } else if (contrib.type === "design") {
-                                d.caption += "lightbulb-o"
+                                d.caption += "lightbulb"
+                                d.caption += "'></i> design: ";
                             }
-                            d.caption += "'></i>";
                         }
                         d.caption += " ";
                         //d.caption += "(";
                         d.caption += contrib.desc;
                         //d.caption += ")";
-                        //d.caption += "<li>";     
+                        d.caption += "</li>";     
                     });
                     d.caption += "</ul>"
                     d.caption += "</li>";

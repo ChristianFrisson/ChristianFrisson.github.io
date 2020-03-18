@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -110,7 +110,7 @@ input, select, textarea {
 		color: #888;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -139,20 +139,39 @@ input, select, textarea {
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 0.75em;
 	}
 
 	header {
 		margin: 0 0 2em 0;
 	}
 
-		header > p {
-			margin: 1em 0 0 0;
+		header > div {
+			width: 55%;
+			margin: auto;
+			font-size: 1em;
+			line-height: 1.2em;
+			padding: 1em;
 		}
 
-	footer {
+		.cart {
+			width: 55%;
+			margin: auto;
+			margin-top: 2em;
+			font-size: 0.8em;
+			line-height: 1.2em;
+			background-color:rgba(18, 21, 29, 0.85);
+			color:white;
+			border: 5px solid rgb(255, 255, 255);
+			box-shadow: rgb(255, 255, 255) 0px 0px 0px 5px;
+			z-index: 2;
+			padding: 1em;
+		}
+
+
+	/* footer {
 		margin: 2em 0 0 0;
-	}
+	} */
 
 	strong, b {
 		font-weight: 300;
@@ -202,7 +221,7 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	/*p,*/ ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
 
@@ -1742,6 +1761,10 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+		.item {
+			margin-bottom: 0px;
+		}
+
 /* Image */
 
 	.image {
@@ -1763,6 +1786,28 @@ input, select, textarea {
 			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
+			}
+
+
+			.logos {
+				background-color: #fff;
+			}
+			.logos p {
+				color: black;
+			}
+
+			.logo {
+				display: inline-block;
+				vertical-align: middle;
+			}
+	
+			
+			.logo img {
+					width: auto;
+					height: 28px;
+			}
+			.logo img {
+				padding: 4px;
 			}
 
 		.image.fit {
@@ -1794,7 +1839,7 @@ input, select, textarea {
 /* List */
 
 	ul {
-		list-style: disc;
+		/* list-style: disc; */
 		padding-left: 1em;
 	}
 
@@ -1813,17 +1858,20 @@ input, select, textarea {
 
 /* Icons */
 
+	ul.logos,
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
 
+		ul.logos li,
 		ul.icons li {
 			display: inline-block;
 			padding-left: 0;
 		}
 
+		ul.logos a,
 		ul.icons a {
 			display: inline-block;
 			width: 2em;
@@ -1947,7 +1995,7 @@ input, select, textarea {
 		border-radius: 0.35em;
 		color: #fff !important;
 		text-decoration: none;
-		padding: 0.75em 2.5em 0.75em 2.5em;
+		/* padding: 0.75em 2.5em 0.75em 2.5em; */
 		background-color: #8ebebc;
 		border: 0;
 		cursor: pointer;
@@ -1959,6 +2007,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
+		width: 3.25em;
+		height: 2.25em;
+		line-height: 2.25em;
 	}
 
 		input[type="button"]:hover,
@@ -1979,7 +2030,7 @@ input, select, textarea {
 
 /* Item */
 
-	.item {
+	/* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
@@ -1993,7 +2044,7 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
-			}
+			} */
 
 /* Icons */
 
@@ -2034,6 +2085,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		display: none;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2113,7 +2165,8 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			/* color: rgba(255, 255, 255, 0.5); */
+			color: #8a8c8e
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2173,7 +2226,7 @@ input, select, textarea {
 					}
 
 /* Footer */
-
+/*
 	#footer {
 		margin-left: 375px;
 		text-align: center;
@@ -2201,7 +2254,7 @@ input, select, textarea {
 					padding-left: 0;
 					margin-left: 0;
 				}
-
+*/
 /* Main */
 
 	#main {
@@ -2239,20 +2292,61 @@ input, select, textarea {
 					#main > section.dark a:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
+			
+			#main > section.inter {
+				/* color: rgb(162, 255, 251) */
+				color: #fff;
+				/* color: rgba(255, 255, 255, 0.75); */
+			}
+
+			#main > section.inter h2, #main > section.inter h3, #main > section.inter h4, #main > section.inter h5, #main > section.inter h6 {
+				color: #fff;
+			
+			}
+
+			#main > section.inter h2 {
+				margin-bottom: 2em;
+			}
+
+			#main > section.inter p {
+			}
+
+			#main > section.inter strong {
+				/* color: #fff; */
+				border-color: inherit;
+			}
+
+			#main > section.inter a {
+				/* color: #fff; */
+				border-color: inherit;
+			}
+
+				#main > section.inter a:hover {
+					border-bottom-color: rgba(255, 255, 255, 0);
+				}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 2em 0;
 				background-size: cover;
 				background-position: center center;
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../../images/banner.jpg");
+				background-color: #fff;
+			}
+
+			#main > section.intro {
+				background-color: #fff;
+				background-image: url("../../../images/intro.jpg");
 			}
 
 			#main > section.two {
 				background-color: #f5fafa;
+			}
+
+			#main > section.bg {
+				background-color: #f5fafa;
+				background-image: url("../../../images/bg.jpg");
 			}
 
 			#main > section.three {
@@ -2306,7 +2400,6 @@ input, select, textarea {
 			#main section.cover {
 				padding: 5em 0;
 			}
-
 	}
 
 /* Narrow */
@@ -2316,7 +2409,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 12pt;
 			}
 
 			.container {
@@ -2332,7 +2425,7 @@ input, select, textarea {
 		/* Item */
 
 			.item {
-				margin-bottom: 20px;
+				margin-bottom: 0px;
 			}
 
 		/* Header */
@@ -2405,7 +2498,7 @@ input, select, textarea {
 		/* Item */
 
 			.item {
-				margin-bottom: 15px;
+				margin-bottom: 0px;
 			}
 
 		/* Icons */
@@ -2630,4 +2723,27 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+
+	ul.logos,
+	ul.icons {
+		margin-bottom: 0em;
+	}
+
+	.copyright {
+		/* color: #41484c; */
+		color: rgba(255, 255, 255, 0.5);
+		line-height: 1.25em;
+		font-size: 10pt;
+		text-align: center;
+		padding: 0px;
+	}
+
+	.copyright li {
+		padding: 0px;
+	}
+
+	.copyright a {
+		border-bottom: dotted 1px rgba(71, 71, 71, 0.2);
 	}
