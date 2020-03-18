@@ -684,8 +684,15 @@
         "dataset": "",
         "people": [
             ["Christian", "Frisson"],
+            ["François", "Rocca"],
+            ["Stéphane", "Dupont"],
+            ["Thierry", "Dutoit"],
+            ["Grobet", "Damien"],
+            ["Rudi", "Giot"],
+            ["Mohammed", "El Brouzi"],
+            ["Samir", "Bouaziz"],
             ["Willy", "Yvart"],
-            ["Rudi", "Giot"]
+            ["Sylvie", "Merviel"]
         ],
         "publications": [{
             "venue": "conference",
