@@ -65,7 +65,7 @@
             "eventName": "IEEE InfoVis 2019 + TVCG 2020",
 
             "thumb": {
-                "stem": "DataChangesDesignProcess.svg",
+                "stem": "DataChangesTVCG2020.svg",
                 "width": 666,
                 "height": 212
             },
@@ -135,12 +135,12 @@
         "eventName": "ACM CHI EA",
         "eventYear": 2018,
         "thumb": {
-            "stem": "EnergyVisCHI2018.jpg",
+            "stem": "EnergyVisCHI2018EA.jpg",
             "width": 265,
             "height": 212
         },
         "image": {
-            "stem": "EnergyVisCHI2018.jpg"
+            "stem": "EnergyVisCHI2018EA.jpg"
         },
         "video": {
             "host": "youtube",
@@ -199,105 +199,13 @@
         "eventName": "ACM UIST Adjunct",
         "eventYear": 2017,
         "thumb": {
-            "stem": "VibroTactileWidgets.jpg",
+            "stem": "VibroTactileWidgetsUIST2017Adjunct.jpg",
             "width": 379,
             "height": 212
         },
         "video": {
             "host": "youtube",
             "id": "yWpjaupPd4Y"
-        }
-    }, {
-        "title": "WebAudioHaptics + StereoHaptics",
-        "subtitle": "Tutorials on Haptics through (Web)Audio",
-        "contribs": [{
-            "type": "organization",
-            "desc": "co-organizing the WAC tutorial"
-        }, {
-            "type": "design",
-            "desc": "proxying haptics through audio directly in a browser"
-        }, {
-            "type": "development",
-            "desc": "adapting WebPd WebAudio-based runtime and NexusUI HTML5 widgets (JavaScript)"
-        }],
-        "people": [
-            ["Christian", "Frisson"],
-            ["Thomas", "Pietrzak"],
-            ["Siyan", "Zhao"],
-            ["Zachary", "Schwemler"],
-            ["Adam", "Fritz"],
-            ["Ali", "Israr"]
-        ],
-        "publications": [{
-            "venue": "conference",
-            "type": "studio",
-            "title": "Stereohaptics: A Haptic Interaction Toolkit for Tangible Virtual Experiences",
-            "authors": [
-                ["Ali", "Israr"],
-                ["Siyan", "Zhao"],
-                ["Kyna", "McIntosh"],
-                ["Zachary", "Schwemler"],
-                ["Adam", "Fritz"],
-                ["John", "Mars"],
-                ["Job", "Bedford"],
-                ["Christian", "Frisson"],
-                ["Ivan", "Huerta"],
-                ["Maggie", "Kosek"],
-                ["Charalampos", "Koniaris"],
-                ["Kenny", "Mitchell"]
-            ],
-            "conference": "ACM SIGGRAPH",
-            "booktitle": "ACM SIGGRAPH 2016 Studio",
-            "series": "ACM SIGGRAPH",
-            "year": 2016,
-            "location": {
-                "city": "Anaheim",
-                "country": "USA"
-            },
-            "date": {
-                "start": "2016-04-04",
-                "end": "2016-04-06"
-            },
-            "acmDLAuthorizeId": "N25052",
-            "doi": "10.1145/2929484.2970273"
-        }, {
-            "venue": "conference",
-            "type": "tutorial",
-            "title": "WebAudioHaptics: Tutorial on Haptics with Web Audio",
-            "authors": [
-                ["Christian", "Frisson"],
-                ["Thomas", "Pietrzak"],
-                ["Siyan", "Zhao"],
-                ["Zachary", "Schwemler"],
-                ["Adam", "Fritz"],
-                ["Ali", "Israr"]
-            ],
-            "conference": "Web Audio Conference",
-            "booktitle": "Proceedings of the 2nd Web Audio Conference",
-            "series": "WAC",
-            "year": 2016,
-            "location": {
-                "city": "Atlanta",
-                "country": "USA"
-            },
-            "date": {
-                "start": "2016-04-04",
-                "end": "2016-04-06"
-            }
-        }],
-        "eventYear": 2016,
-        "eventName": "WAC + ACM SIGGRAPH Studio",
-        "thumb": {
-            "stem": "WebAudioHaptics.png",
-            "width": 408,
-            "height": 212
-        },
-        "image": {
-            "stem": "WebAudioHapticsOverview.png"
-        },
-        "code": {
-            "host": "github",
-            "account": "WebAudioHaptics"
         }
     }, {
         "title": "InspectorWidget",
@@ -398,7 +306,7 @@
         "eventYear": 2016,
         "eventName": "ACM TEI WIP",
         "thumb": {
-            "stem": "InfoPhys.jpg",
+            "stem": "InfoPhysTEI2016.jpg",
             "width": 318,
             "height": 212
         },
@@ -461,58 +369,12 @@
         "eventName": "ACM AudioMostly",
         "eventYear": 2016,
         "thumb": {
-            "stem": "SonixCycleDashboardFF1010.jpg",
+            "stem": "SonixCycleAM2016.jpg",
             "width": 303,
             "height": 212
         },
         "image": {
             "stem": "SonixCycleDashboardFF1010.jpg"
-        }
-    }, {
-        "title": "Designing interaction for browsing media collections (by similarity)",
-        "contribs": [{
-            "type": "design",
-            "desc": "information visualization techniques and input devices for browsing media collections by similarity"
-        }, {
-            "type": "development",
-            "desc": "many plugins and applications part of the MediaCycle framework (Qt/OpenSceneGraph/C++)"
-        }],
-        "people": [
-            ["Thierry", "Dutoit"],
-            ["Stéphane", "Dupont"],
-            ["Xavier", "Siebert"],
-            ["Jean", "Vanderdonckt"],
-            ["Marcelo", "Wanderley"],
-            ["Jef", "Wijsen"]
-        ],
-        "publications": [{
-            "type": "phdthesis",
-            "title": "Designing interaction for browsing media collections (by similarity)",
-            "authors": [
-                ["Christian", "Frisson"]
-            ],
-            "university": "University of Mons",
-            "universityShort": "UMONS",
-            "year": 2015,
-            "location": {
-                "city": "Mons",
-                "country": "Belgium"
-            },
-            "date": {
-                "start": "2010-09-01",
-                "end": "2015-02-17"
-            },
-            "pages": "277"
-        }],
-        "eventYear": 2015,
-        "eventName": "PhD",
-        "thumb": {
-            "stem": "PhDCover.jpg",
-            "width": 318,
-            "height": 212
-        },
-        "image": {
-            "stem": "PhDThumbs.png"
         }
     }, {
         "title": "AudioMetro",
@@ -665,7 +527,7 @@
         "eventYear": 2014,
         "eventName": "eNTERFACE",
         "thumb": {
-            "stem": "AuracleRekall.jpg",
+            "stem": "AuracleeNTERFACE2014.jpg",
             "width": 291,
             "height": 212
         },
@@ -730,7 +592,7 @@
         "eventYear": 2014,
         "eventName": "ACM TEI",
         "thumb": {
-            "stem": "TangibleNeedle.jpg",
+            "stem": "TangibleHaystackTEI2014.jpg",
             "width": 344,
             "height": 212
         },
@@ -782,7 +644,7 @@
         "eventYear": 2013,
         "eventName": "ACM UIST SIC",
         "thumb": {
-            "stem": "LavaAMP.jpg",
+            "stem": "LavaAMPUIST2013SIC.jpg",
             "width": 258,
             "height": 212
         },
@@ -834,7 +696,7 @@
         "eventYear": 2013,
         "eventName": "KISS",
         "thumb": {
-            "stem": "TheListeningRoomFreeze.jpg",
+            "stem": "TheListeningRoom.jpg",
             "width": 283,
             "height": 212
         },
@@ -960,7 +822,7 @@
         "eventYear": 2013,
         "eventName": "Springer MMM VBS",
         "thumb": {
-            "stem": "VideoCycleDemo@VBS2013.jpg",
+            "stem": "VideoCycleMMM2013VBS.jpg",
             "width": 320,
             "height": 232
         },
@@ -1022,7 +884,7 @@
         "eventYear": 2012,
         "eventName": "NIME",
         "thumb": {
-            "stem": "LoopJamSeneffe.jpg",
+            "stem": "LoopJamNIME2012.jpg",
             "width": 272,
             "height": 212
         },
@@ -1079,7 +941,7 @@
         "eventYear": 2010,
         "eventName": "NIME",
         "thumb": {
-            "stem": "DeviceCycle.png",
+            "stem": "DeviceCycleNIME2010.jpg",
             "width": 277,
             "height": 212
         },

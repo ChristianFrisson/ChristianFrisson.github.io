@@ -15,12 +15,13 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
     <!--[if lte IE 8]><script src="assets/js/parallelism/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/parallelism/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/parallelism/noscript.css" /></noscript>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/parallelism/noscript.css" /></noscript>
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/parallelism/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/parallelism/ie9.css" /><![endif]-->
-    
+
     <link rel="stylesheet" href="assets/css/prologue/main.css" />
-    
+
     <script type="text/javascript" src="assets/js/d3.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.poptrox.min.js"></script>
@@ -30,6 +31,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <script src="assets/js/parallelism/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/parallelism/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/parallelism/main.js"></script>
+
+    <link rel="stylesheet" href="assets/css/pubvis.css" />
+    <script src="assets/js/zotero-bibtex-parse.js" type="text/javascript"></script>
+    <script src="assets/js/d3.layout.cloud.js"></script>
+    <script src="assets/js/pubvis.js" type="text/javascript"></script>
 
     <script src="assets/js/googleanalytics.js"></script>
 </head>
@@ -50,6 +56,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                 <ul>
                     <li><a href="#top" id="top-link"><span class="icon solid fa-user">About</span></a></li>
                     <li><a href="#projects" id="projects-link"><span class="icon solid fa-th">Projects</span></a></li>
+                    <li><a href="#cv" id="cv-link"><span class="icon solid fa-th-list">Contributions</span></a></li>
                 </ul>
             </nav>
 
@@ -58,21 +65,31 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <div class="bottom">
 
             <ul class="icons">
-                <li><a href="https://linkedin.com/in/christianfrisson" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/ChristianFrisson" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                <li><a href="https://scholar.google.com/citations?user=sZVn1V4AAAAJ" class="icon solid fa-graduation-cap"><span class="label">Publications</span></a></li>
-                <li><a href="https://www.facebook.com/christian.frisson" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="https://twitter.com/TuyleriDikenli" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://linkedin.com/in/christianfrisson" class="icon brands fa-linkedin"><span
+                            class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/ChristianFrisson" class="icon brands fa-github"><span
+                            class="label">Github</span></a></li>
+                <li><a href="https://scholar.google.com/citations?user=sZVn1V4AAAAJ"
+                        class="icon solid fa-graduation-cap"><span class="label">Publications</span></a></li>
+                <li><a href="https://www.facebook.com/christian.frisson" class="icon brands fa-facebook"><span
+                            class="label">Facebook</span></a></li>
+                <li><a href="https://twitter.com/TuyleriDikenli" class="icon brands fa-twitter"><span
+                            class="label">Twitter</span></a></li>
             </ul>
 
             <ul class="copyright">
                 <li>
                     (<a href="https://github.com/ChristianFrisson/ChristianFrisson.github.io">data-driven</a>)
-                    <br/>
+                    <br />
                     <a href="https://html5up.net">HTML5 UP</a>
-                    <a href="https://html5up.net/prologue">Prologue</a>+<a href="https://html5up.net/parallelism">Parallelism</a>
-                    <br/>
+                    <a href="https://html5up.net/prologue">Prologue</a>+<a
+                        href="https://html5up.net/parallelism">Parallelism</a>
+                    <br />
                     (<a href="http://html5up.net/license">cc-by</a>)
+                    <br />
+                    +
+                    <br />
+                    <a href="https://github.com/ChristianFrisson/PubViz">PubVis</a>
                 </li>
             </ul>
 
@@ -90,43 +107,66 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     <h2 class="alt">Christian Frisson</h2>
                     <!-- <div class="cart"> -->
                     <div class="">
-                    <p>I am a researcher in Human-Computer Interaction, with expertise in Information Visualization, Multimedia Information Retrieval, and Tangible/Haptic Interaction.  
-                    I create and evaluate user interfaces for manipulating multimedia content and data. 
-                    I favor obtaining replicable, reusable and sustainable results through open-source software, open hardware and open datasets.</p>
-                    <br/>
-                    <div class="logos">
-                    Postdocs:
-                        
-                        <a class="logo" href="https://mcgill.ca" title="McGill University"><img src="images/logos/mcgill_sig_red.png" alt="McGill University"/></a>
-                        <a class="logo" href="http://idmil.org" title="Input Devices and Music Interaction Lab"><img src="images/logos/IDMIL-cropped-sq-rnd.png" alt="IDMIL"/></a> (present)
-                        +
-                        <a class="logo" href="https://ucalgary.ca" title="University of Calgary"><img src="images/logos/uc-horz-rgb.png" alt="University of Calgary"/></a> 
-                        <a class="logo" href="http://ilab.cpsc.ucalgary.ca" title="Interactions Lab"><img src="images/logos/ilab-logo.png" alt="Interactions Lab"/></a>
-                        +
-                        <a class="logo" href="https://www.inria.fr" title="Inria"><img src="images/logos/inr_logo_rouge.svg" alt="Inria"/></a> 
-                        <a class="logo" href="http://mjolnir.lille.inria.fr" title="Mjolnir team"><img src="images/logos/mjolnir-logo.png" alt="Mjolnir"/></a>
-                        | <br/>
-                        PhD: 
-                        <a class="logo" href="http://web.umons.ac.be" title="University of Mons"><img src="images/logos/umons-prelude.svg" alt="UMONS"/></a> 
-                        <a class="logo" href="http://numediart.org" title="numediart Institute for New Media Art Technology"><img src="images/logos/numediart.svg" alt="numediart"/></a> 
-                        | 
-                        MSc:
-                        <a class="logo" href="http://phelma.grenoble-inp.fr" title="Grenoble Institute of Technology, School of Engineering in Physics, Applied Physics, Electronics & Materials Science"><img src="images/logos/grenoble-inp-phelma.svg" alt="Grenoble INP Phelma"/></a> 
-                        <a class="logo" href="http://www.acroe-ica.org" title="Association for Creation and Research on Tools for Expression - Artistic Creation Engineering Lab"><img src="images/logos/acroe-ica-logo.png" alt="ACROE ICA"/></a>
-                        | 
-                        MEng: 
-                        <a class="logo" href="http://ensim.univ-lemans.fr" title="École Nationale Supérieure d'Ingénieurs du Mans"><img src="images/logos/ensim.png" alt="ENSIM"/></a>                    
-                    
+                        <p>I am a researcher in Human-Computer Interaction, with expertise in Information Visualization,
+                            Multimedia Information Retrieval, and Tangible/Haptic Interaction.
+                            I create and evaluate user interfaces for manipulating multimedia content and data.
+                            I favor obtaining replicable, reusable and sustainable results through open-source software,
+                            open hardware and open datasets.</p>
+                        <br />
+                        <div class="logos">
+                            Postdocs:
+
+                            <a class="logo" href="https://mcgill.ca" title="McGill University"><img
+                                    src="images/logos/mcgill_sig_red.png" alt="McGill University" /></a>
+                            <a class="logo" href="http://idmil.org" title="Input Devices and Music Interaction Lab"><img
+                                    src="images/logos/IDMIL-cropped-sq-rnd.png" alt="IDMIL" /></a> (present)
+                            +
+                            <a class="logo" href="https://ucalgary.ca" title="University of Calgary"><img
+                                    src="images/logos/uc-horz-rgb.png" alt="University of Calgary" /></a>
+                            <a class="logo" href="http://ilab.cpsc.ucalgary.ca" title="Interactions Lab"><img
+                                    src="images/logos/ilab-logo.png" alt="Interactions Lab" /></a>
+                            +
+                            <a class="logo" href="https://www.inria.fr" title="Inria"><img
+                                    src="images/logos/inr_logo_rouge.svg" alt="Inria" /></a>
+                            <a class="logo" href="http://mjolnir.lille.inria.fr" title="Mjolnir team"><img
+                                    src="images/logos/mjolnir-logo.png" alt="Mjolnir" /></a>
+                            | <br />
+                            PhD:
+                            <a class="logo" href="http://web.umons.ac.be" title="University of Mons"><img
+                                    src="images/logos/umons-prelude.svg" alt="UMONS" /></a>
+                            <a class="logo" href="http://numediart.org"
+                                title="numediart Institute for New Media Art Technology"><img
+                                    src="images/logos/numediart.svg" alt="numediart" /></a>
+                            |
+                            MSc:
+                            <a class="logo" href="http://phelma.grenoble-inp.fr"
+                                title="Grenoble Institute of Technology, School of Engineering in Physics, Applied Physics, Electronics & Materials Science"><img
+                                    src="images/logos/grenoble-inp-phelma.svg" alt="Grenoble INP Phelma" /></a>
+                            <a class="logo" href="http://www.acroe-ica.org"
+                                title="Association for Creation and Research on Tools for Expression - Artistic Creation Engineering Lab"><img
+                                    src="images/logos/acroe-ica-logo.png" alt="ACROE ICA" /></a>
+                            |
+                            MEng:
+                            <a class="logo" href="http://ensim.univ-lemans.fr"
+                                title="École Nationale Supérieure d'Ingénieurs du Mans"><img
+                                    src="images/logos/ensim.png" alt="ENSIM" /></a>
+
+                        </div>
+                        <br />
+                        <ul class="icons">
+                            <li><a href="https://linkedin.com/in/christianfrisson" class="icon brands fa-linkedin"><span
+                                        class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/ChristianFrisson" class="icon brands fa-github"><span
+                                        class="label">Github</span></a></li>
+                            <li><a href="https://scholar.google.com/citations?user=sZVn1V4AAAAJ"
+                                    class="icon solid fa-graduation-cap"><span class="label">Publications</span></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/christian.frisson"
+                                    class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+                            <li><a href="https://twitter.com/TuyleriDikenli" class="icon brands fa-twitter"><span
+                                        class="label">Twitter</span></a></li>
+                        </ul>
                     </div>
-                    <br/>
-                    <ul class="icons">
-                        <li><a href="https://linkedin.com/in/christianfrisson" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="https://github.com/ChristianFrisson" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="https://scholar.google.com/citations?user=sZVn1V4AAAAJ" class="icon solid fa-graduation-cap"><span class="label">Publications</span></a></li>
-                        <li><a href="https://www.facebook.com/christian.frisson" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="https://twitter.com/TuyleriDikenli" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                    </ul>
-                </div>
                 </header>
 
                 <footer>
@@ -139,24 +179,56 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         </section>
 
         <section id="projects" class="two">
-        <!-- <section id="projects" class="cover bg"> -->
+            <!-- <section id="projects" class="cover bg"> -->
             <!-- <div class="container"> -->
 
-                <header>
-                    <h2>Projects</h2>
-                </header>
+            <header>
+                <h2>Projects</h2>
+            </header>
 
-                <div>
-                    <div id="wrapper">
-                        <div id="parallelism">
-                            <div id="reel">
-                            </div>
+            <div>
+                <div id="wrapper">
+                    <div id="parallelism">
+                        <div id="reel">
                         </div>
-                    </div> 
+                    </div>
                 </div>
+            </div>
 
             <!-- </div> -->
         </section>
+
+        <section id="cv" class="three">
+            
+            <div class="container"></div>
+            <header>
+                <h2>Contributions</h2>
+            </header>
+            <div id="pubvis_container" class="dark">
+                <!-- <div id="header"> -->
+                    <!-- <span id="title">Contributions: </span> -->
+                    <span id="amount">
+                        <span id="lbl_selected_amount"></span>
+                        <span id="lbl_slash_amount">/</span>
+                        <span id=lbl_total_amount></span>
+                    </span>
+                    <button id="btn_clearAll">Reset</button>
+                    <!-- <span id="sort">Sort by </span>
+                    <button id="btn_year">Year</button>
+                    <button id="btn_type">Type</button> -->
+                <!-- </div> -->
+                <div id="timeline_container"></div>
+                <div>
+                    <div id="types_container"></div>
+                    <div id="authors_container"></div>
+                    <div id="keywords_container"></div>
+                </div>
+                <div id="list"></div>
+                <!-- <div id="footer"></div> -->
+            </div>
+    </div>
+
+    </section>
 
     </div>
 
@@ -168,6 +240,21 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
     <script src="assets/js/prologue/util.js"></script>
     <script src="assets/js/prologue/main.js"></script>
+
+    <script type="text/javascript">
+
+		$(document).ready(function () {
+			PUBVIS.make_it_all({
+				target: "#pubvis_container", //the node the pubViz visualization will be appended
+				filename: "ChristianFrisson.bib", //the bibTeX filename used for the pubViz visualization
+				covers: "images/covers", // directory for papers first page (PNG files)
+				thumbs: "images/thumbs", // directory for papers thumbnails (JPG files)
+				color: "#e27689", //color name or hex value which will be used for highlighting
+				decoraton_color: "#285b85", //optional parameter, default is hex value #333333
+				categories: []
+			});
+		});
+	</script>
 
 </body>
 
