@@ -415,9 +415,9 @@
 				.poptrox-popup .nav-next, .poptrox-popup .nav-previous {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: "Font Awesome 5 Free";
 					font-style: normal;
-					font-weight: normal;
+					font-weight: 900;
 					text-transform: none !important;
 					width: 150px;
 					height: 50px;
