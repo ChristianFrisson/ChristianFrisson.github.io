@@ -374,8 +374,9 @@ var parallelism = (function($) { var _ = {
 								var	delta = (e.detail ? e.detail * -10 : e.wheelDelta) * _.settings.scrollFactor;
 								_.objects.main.scrollLeft( _.objects.main.scrollLeft() - delta );
 								$SZ._parallelism_update();
-								e.preventDefault();
-								e.stopPropagation();
+								// Disable vertical scroll lock
+								//e.preventDefault();
+								//e.stopPropagation();
 							};
 
 							var st;
