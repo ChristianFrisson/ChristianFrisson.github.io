@@ -96,7 +96,12 @@ PUBVIS = function () {
         var currYear = new Date().getFullYear().toString();
 
         for (i = 0; i < tmp_json.length; i++) {
-            var year = tmp_json[i]["entryTags"]["year"];
+            var year = tmp_json[i]["entryTags"]["date"];
+            if(year !== undefined){
+                year = year.split('-')[0];
+                year = year.split('/')[0];
+            }
+            tmp_json[i]["entryTags"]["year"] = year;
 
             if (isNaN(year)) {
                 tmp_json[i]["entryTags"]["year"] = currYear;
