@@ -1796,8 +1796,8 @@ PUBVIS = function () {
 
                     str = item.entryTags.keywords;
                     str = str.replace(/[^\w\s\-]/gi, ''); // remove special chars/whitespaces, except . and -
-                    str = to_title_case(str);
-
+                    str = str.toLowerCase();
+                    searched_word = searched_word.toLowerCase();
                     if (str.search(searched_word) !== (-1)) { return true; };
                 }
             }
