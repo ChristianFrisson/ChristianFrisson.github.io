@@ -1,6 +1,59 @@
 {
     "projects": [
 		{
+            "title": "TorqueTuner",
+            "subtitle": "A self contained module for designing rotary haptic force feedback for digital musical instruments",
+            "contribs": [{
+                "type": "organization",
+                "desc": "co-supervising Mathias and Mathias"
+            },{
+                "type": "development",
+                "desc": "replicability on Linux"
+            }],
+            "people": [
+                ["Mathias", "Kirkegaard"],
+                ["Mathias", "Bredholt"],
+                ["Christian", "Frisson"],
+                ["Marcelo", "Wanderley"]
+            ],
+            "publications": [{
+                "venue": "conference",
+                "presentation": "video presentation",
+                "title": "TorqueTuner: A self contained module for designing rotary haptic force feedback for digital musical instruments",
+                "authors": [
+                    ["Mathias", "Kirkegaard"],
+                    ["Mathias", "Bredholt"],
+                    ["Christian", "Frisson"],
+                    ["Marcelo", "Wanderley"]
+                ],
+                "conference": "20th International Conference on New Interfaces for Musical Expression",
+                "booktitle": "Proceedings of the International Conference on New Interfaces for Musical Expression",
+                "series": "NIME",
+                "year": 2020,
+                "location": {
+                    "city": "Birmingham",
+                    "country": "UK"
+                },
+                "date": {
+                    "start": "2020-07-21",
+                    "end": "2020-07-25"
+                }
+            }],
+            "eventName": "NIME",
+            "eventYear": 2020,
+            "thumb": {
+                "stem": "TorqueTunerNIME2020.jpg",
+                "width": 424,
+                "height": 283
+            },
+            "image": {
+                "stem": "TorqueTunerNIME2020.jpg"
+            },
+            "video": {
+                "host": "vimeo",
+                "id": "404592134"
+            }
+        }, {
             "title": "Data Visualization Design Handoff",
             "subtitle": "Challenges and Opportunities in Data Visualization Design Handoff",
             "contribs": [{
@@ -9,6 +62,7 @@
             }],
             "people": [
                 ["Jagoda", "Walny"],
+                ["Christian", "Frisson"],
                 ["Mieka", "West"],
                 ["Doris", "Kosminsky"],
                 ["Søren", "Knudsen"],
@@ -21,6 +75,7 @@
                 "title": "Challenges and Opportunities in Data Visualization Design Handoff",
                 "authors": [
                     ["Jagoda", "Walny"],
+                    ["Christian", "Frisson"],
                     ["Mieka", "West"],
                     ["Doris", "Kosminsky"],
                     ["Søren", "Knudsen"],
@@ -50,6 +105,7 @@
                 "title": "Challenges and Opportunities in Data Visualization Design Handoff",
                 "authors": [
                     ["Jagoda", "Walny"],
+                    ["Christian", "Frisson"],
                     ["Mieka", "West"],
                     ["Doris", "Kosminsky"],
                     ["Søren", "Knudsen"],
@@ -86,6 +142,7 @@
             ["Doris", "Kosminsky"],
             ["Jagoda", "Walny"],
             ["Mieka", "West"],
+            ["Christian", "Frisson"],
             ["Bon", "Adriel Aseniero"],
             ["Lindsay", "MacDonald Vermeulen"],
             ["Charles", "Perin"],
@@ -105,7 +162,8 @@
 	            ["Jo", "Vermeulen"],
 	            ["Doris", "Kosminsky"],
 	            ["Jagoda", "Walny"],
-	            ["Mieka", "West"],
+                ["Mieka", "West"],
+                ["Christian", "Frisson"],
 	            ["Bon", "Adriel Aseniero"],
 	            ["Lindsay", "MacDonald Vermeulen"],
 	            ["Charles", "Perin"],
