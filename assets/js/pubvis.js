@@ -4131,17 +4131,17 @@ PUBVIS = function () {
 
                     //if there is not enough space for the authors, the limit function will be called to cut of the authors according to their 
                     //number of publication. Thus an arbitrary disappearance of names can be avoided
-                    if (authors_displayed.length < authors.length) {
-                        //console.log( "too less space >> limit authors again from : "+ authors.length + " to: " + authors_displayed.length );
+                    // if (authors_displayed.length < authors.length) {
+                    //     //console.log( "too less space >> limit authors again from : "+ authors.length + " to: " + authors_displayed.length );
 
-                        //find new length for authors according to the size of the author which is on the position of the authors_displayed.length
-                        authors = limit_words({ words: authors, optimum_size: authors_displayed.length, min: 1 });
-                        //update authors_displaxed to new length
-                        authors_displayed = save_wordtext_and_wordid({ array: authors, id: id_name });;
-                        //change words.length to the new length 
-                        words.length = authors.length;
+                    //     //find new length for authors according to the size of the author which is on the position of the authors_displayed.length
+                    //     authors = limit_words({ words: authors, optimum_size: authors_displayed.length, min: 1 });
+                    //     //update authors_displaxed to new length
+                    //     authors_displayed = save_wordtext_and_wordid({ array: authors, id: id_name });;
+                    //     //change words.length to the new length 
+                    //     words.length = authors.length;
 
-                    }
+                    // }
 
                     //console.dir( authors_displayed );
                 } else {
