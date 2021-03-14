@@ -155,10 +155,13 @@ function initProjects(thumbHeight) {
                                 d.caption += ")"
                             }
 
-                            if (publication.acmDLAuthorizeId !== undefined) {
+                            if (publication.acmDLAuthorizeId !== undefined && publication.doi !== undefined) {
 
-                                d.caption += ' <a href="https://dl.acm.org/authorize?'
-                                d.caption += publication.acmDLAuthorizeId
+                                // d.caption += ' <a href="https://dl.acm.org/authorize?'
+                                // d.caption += publication.acmDLAuthorizeId
+                                d.caption += ' <a href="https://dl.acm.org/doi/'
+                                d.caption += publication.doi
+                                d.caption += '?cid=81470641566'
                                 d.caption += '" title="ACM DL Author-ize service">'
                                 d.caption += '<img src="images/ACM-DL-Logo-flat-CMYK-no-text.svg.png" width="38" height="18" border="0" alt="[ACM-DL]" style="vertical-align:middle"/></a>';
                             }
