@@ -321,6 +321,10 @@
         "code": {
             "host": "github",
             "account": "InspectorWidget"
+        },
+        "video": {
+            "host": "youtube",
+            "id": "xv-g04fn9pE"
         }
     }, {
         "title": "InfoPhys",
