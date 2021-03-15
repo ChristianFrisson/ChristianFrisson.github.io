@@ -4577,11 +4577,25 @@ PUBVIS = function () {
                         type = "Thesis";
                     } else if ((data[j].entryType === "unpublished")) {
                         if (data[j].entryTags['eventtitle'] !== undefined) {
-                            // first ? "" : headl += ", ";
+                            first ? "" : headl += " ";
                             // headl += "(";
                             headl += data[j].entryTags['eventtitle'];
                             // headl += ")";
-                            // first = false;
+                            first = false;
+                        }
+                        if (data[j].entryTags['venue'] !== undefined) {
+                            first ? "" : headl += " ";
+                            headl += "(";
+                            headl += data[j].entryTags['venue'];
+                            headl += ")";
+                            first = false;
+                        }
+                        if (data[j].entryTags['type'] !== undefined) {
+                            first ? "" : headl += " ";
+                            // headl += "(";
+                            headl += data[j].entryTags['type'];
+                            // headl += ")";
+                            first = false;
                         }
                     }
                     headl += " ";
