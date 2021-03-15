@@ -4510,8 +4510,8 @@ PUBVIS = function () {
                         headl_suffix += "<div class='url'>" + url + "</div>";
                     }
                     headl_suffix += "</div>";
-                    headl = author + "<br>" + title;
-                    headl += "<br>";
+                    headl = author + "<br/>" + title;
+                    headl += "<br/>";
                     //headl += data[j].entryTags['year'];
                     if (data[j].entryTags['publisher'] !== undefined) {
                         headl += data[j].entryTags['publisher'] + " ";
@@ -4590,19 +4590,35 @@ PUBVIS = function () {
                             headl += ")";
                             first = false;
                         }
-                        if (data[j].entryTags['type'] !== undefined) {
+                    } else if ((data[j].entryType === "patent")) {
+                        if (data[j].entryTags['number'] !== undefined) {
                             first ? "" : headl += " ";
                             // headl += "(";
-                            headl += data[j].entryTags['type'];
+                            headl += data[j].entryTags['number'];
+                            // headl += ")";
+                            first = false;
+                        }
+                    } else if ((data[j].entryType === "artwork") ||
+                            (data[j].entryType === "software")) {
+                        if (data[j].entryTags['date'] !== undefined) {
+                            first ? "" : headl += " ";
+                            // headl += "(";
+                            headl += data[j].entryTags['date'];
                             // headl += ")";
                             first = false;
                         }
                     }
-                    headl += " ";
-                    if ((data[j].entryType === "unpublished")) {
-                        //headl += "Presentations"
+                    headl += "<br/>";
+                    if ((data[j].entryTags['type'] !== undefined) &&
+                    (data[j].entryType !== "patent")) {
+                        // headl += "(";
+                        headl += data[j].entryTags['type'];
+                        // headl += ")";
+                        // first ? "" : 
+                        headl += " ";
+                        first = false;
                     }
-                    else {
+                    if ((data[j].entryType !== "unpublished")) {
                         headl += type;
                     }
 
