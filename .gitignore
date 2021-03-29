@@ -1,1 +1,14 @@
 .DS_Store
+
+covers.sh
+thumbs.sh
+images/drafts
+paper*
+pubvis.html
+projects.html
+projects+people.json
+DSCF*
+.gitignore
+avatar.jpg
+*-orig*
+assets/js/jquery.poptrox.js
