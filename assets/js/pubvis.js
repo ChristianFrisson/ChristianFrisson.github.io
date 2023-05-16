@@ -4488,14 +4488,19 @@ PUBVIS = function () {
                         arrow = "&nbsp";
                     }
 
-                    var cover = "<a target='_blank' style='float: right;' href='" + data[j].entryTags['url'] + "'><img class='cover' src='" + covers + "/" + data[j]['citationKey'] + ".png' alt='" + data[j]['citationKey'] + "'/></a>"
-                    var thumb = "<img class='thumb' src='" + thumbs + "/" + data[j]['citationKey'] + ".jpg' alt='" + data[j]['citationKey'] + "'/>"
-
                     //check the type and according to the type, add different information
                     var entryType = data[j].entryType.toLowerCase();
                     if (entryType === "article") { type = "Journal Article" }
                     else if ((entryType === "conference") || (entryType === "inproceedings")) { type = "Conference paper" }
                     else if (entryType === "phdthesis") { type = "PhD Thesis" }
+
+                    var coverPath = covers + "/" + data[j]['citationKey'] + ".png";
+                    if(entryType.toString().endsWith("thesis") && data[j].entryTags['type'] === "GSoC")
+                    {
+                        coverPath = "images/logos/gsoc.png"
+                    }
+                    var cover = "<a target='_blank' style='float: right;' href='" + data[j].entryTags['url'] + "'><img class='cover' src='" + coverPath +"' alt='" + data[j]['citationKey'] + "'/></a>"
+                    var thumb = "<img class='thumb' src='" + thumbs + "/" + data[j]['citationKey'] + ".jpg' alt='" + data[j]['citationKey'] + "'/>"
 
                     //aritcle: list journal name
                     //conferene: list conference name
@@ -4509,8 +4514,10 @@ PUBVIS = function () {
                     }
                     headl_prefix += "<div class='subheadl'><h3>";
                     var headl_suffix = "</h3></div>";
-                    if (covers && entryType !== "artwork" && entryType !== "software" && entryType !== "presentation" && entryType !== "unpublished" && !entryType.toString().endsWith("thesis") && data[j].entryTags['url'] !== undefined) {
+                    if (covers && entryType !== "artwork" && entryType !== "software" && entryType !== "presentation" && entryType !== "unpublished" && (entryType.toString().endsWith("thesis") && data[j].entryTags['type'] === "GSoC") && data[j].entryTags['url'] !== undefined) {
                         headl_suffix += "<div class='cover'>" + cover + "</div>";
+                    // } else if(entryType.toString().endsWith("thesis") && data[j].entryTags['type'] === "GSoC"){
+                    //     headl_suffix += "<div class='cover'><img class='cover' src='images/logos/gsoc.png' alt='" + data[j]['citationKey'] + "'/></div>";
                     } else {
                         headl_suffix += "<div class='url'>" + url + "</div>";
                     }
