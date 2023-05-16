@@ -83,6 +83,11 @@ PUBVIS = function () {
             bigJson[e].entryType = bigJson[e].entryType.toLowerCase();
         }
 
+        // sort by descending date
+        bigJson.sort(function(a, b) {
+            return a.entryTags.date < b.entryTags.date;
+        });
+
         return {
             json: bigJson,
             errors: errors
