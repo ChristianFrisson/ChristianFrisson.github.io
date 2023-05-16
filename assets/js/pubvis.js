@@ -4509,7 +4509,7 @@ PUBVIS = function () {
                     }
                     headl_prefix += "<div class='subheadl'><h3>";
                     var headl_suffix = "</h3></div>";
-                    if (covers && entryType !== "artwork" && entryType !== "software" && entryType !== "unpublished" && data[j].entryTags['url'] !== undefined) {
+                    if (covers && entryType !== "artwork" && entryType !== "software" && entryType !== "presentation" && entryType !== "unpublished" && !entryType.toString().endsWith("thesis") && data[j].entryTags['url'] !== undefined) {
                         headl_suffix += "<div class='cover'>" + cover + "</div>";
                     } else {
                         headl_suffix += "<div class='url'>" + url + "</div>";
