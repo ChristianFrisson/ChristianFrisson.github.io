@@ -4514,10 +4514,17 @@ PUBVIS = function () {
                     }
                     headl_prefix += "<div class='subheadl'><h3>";
                     var headl_suffix = "</h3></div>";
-                    if (covers && entryType !== "artwork" && entryType !== "software" && entryType !== "presentation" && entryType !== "unpublished" && (entryType.toString().endsWith("thesis") && data[j].entryTags['type'] === "GSoC") && data[j].entryTags['url'] !== undefined) {
+                    if (covers 
+                        && (
+                            entryType !== "artwork" 
+                            && entryType !== "software" 
+                            && entryType !== "presentation" 
+                            && entryType !== "unpublished"
+                            && (! entryType.toString().endsWith("thesis") || data[j].entryTags['type'] === "GSoC")
+                            ) 
+                        && data[j].entryTags['url'] !== undefined
+                        ) {
                         headl_suffix += "<div class='cover'>" + cover + "</div>";
-                    // } else if(entryType.toString().endsWith("thesis") && data[j].entryTags['type'] === "GSoC"){
-                    //     headl_suffix += "<div class='cover'><img class='cover' src='images/logos/gsoc.png' alt='" + data[j]['citationKey'] + "'/></div>";
                     } else {
                         headl_suffix += "<div class='url'>" + url + "</div>";
                     }
@@ -4585,8 +4592,16 @@ PUBVIS = function () {
                             headl += data[j].entryTags['address'];
                             first = false;
                         }
+                        if (data[j].entryTags['location'] !== undefined) {
+                            first ? "" : headl += " &#8594; ";
+                            headl += data[j].entryTags['location'];
+                            first = false;
+                        }
                         headl += ")";
-                        type = "Thesis";
+                        if (data[j].entryTags['location'] !== undefined && data[j].entryTags['location'].toString().startsWith("SAT"))
+                            type = "Intern (Mentee)";
+                        else
+                            type = "Thesis Student (Unofficial Co-Advisee or Collaborator)";
                     } else if ((data[j].entryType === "unpublished")) {
                         if (data[j].entryTags['eventtitle'] !== undefined) {
                             first ? "" : headl += " ";
