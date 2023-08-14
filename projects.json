@@ -1,6 +1,59 @@
 {
     "projects": [
 		{
+            "title": "LivePose ",
+            "subtitle": "Democratizing Pose Detection for Multimedia Arts and Telepresence Applications on Open Edge Devices",
+            "contribs": [{
+                "type": "development",
+                "desc": "optimization (from 10 to 100 fps), packaging of deep learning backends for video pose estimation on embedded edge devices (NVIDIA Jetson)"
+            }],
+            "people": [
+                ["Christian", "Frisson"],
+                ["Gabriel N.", "Downs"],
+                ["Marie-Ève", "Dumas"],
+                ["Farzaneh", "Askari"],
+                ["Emmanuel", "Durand"]
+            ],
+            "publications": [{
+                "venue": "conference",
+                "presentation": "video presentation",
+                "title": "LivePose: Democratizing Pose Detection for Multimedia Arts and Telepresence Applications on Open Edge Devices",
+                "authors": [
+                    ["Christian", "Frisson"],
+                    ["Gabriel N.", "Downs"],
+                    ["Marie-Ève", "Dumas"],
+                    ["Farzaneh", "Askari"],
+                    ["Emmanuel", "Durand"]
+                ],
+                "conference": "28th ACM Symposium on Virtual Reality Software and Technology",
+                "booktitle": "Proceedings of the 28th ACM Symposium on Virtual Reality Software and Technology",
+                "series": "VRST",
+                "year": 2022,
+                "doi": "10.1145/3562939.3565660",
+                "location": {
+                    "city": "Tsukuba",
+                    "country": "Japan"
+                },
+                "date": {
+                    "start": "2022-11-29",
+                    "end": "2022-12-01"
+                }
+            }],
+            "eventName": "ACM VRST",
+            "eventYear": 2022,
+            "thumb": {
+                "stem": "LivePoseACMVRST2022.jpg",
+                "width": 424,
+                "height": 281
+            },
+            "image": {
+                "stem": "LivePoseACMVRST2022.jpg"
+            },
+            "video": {
+                "host": "vimeo",
+                "id": "639532760"
+            }
+        }, {
             "title": "ForceHost",
             "subtitle": "An open-source toolchain for generating firmware embedding the authoring and rendering of audio and force-feedback haptics",
             "contribs": [{
