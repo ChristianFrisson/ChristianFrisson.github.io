@@ -1,6 +1,59 @@
 {
     "projects": [
 		{
+            "title": "ForceHost",
+            "subtitle": "An open-source toolchain for generating firmware embedding the authoring and rendering of audio and force-feedback haptics",
+            "contribs": [{
+                "type": "organization",
+                "desc": "co-supervising Mathias"
+            },{
+                "type": "development",
+                "desc": "optimization for ESP32 / RTOS of our Faust-based toolchain, embedding web UI in webmapper"
+            }],
+            "people": [
+                ["Mathias", "Kirkegaard"],
+                ["Christian", "Frisson"],
+                ["Thomas", "Pietrzak"],
+                ["Marcelo", "Wanderley"]
+            ],
+            "publications": [{
+                "venue": "conference",
+                "presentation": "video presentation",
+                "title": "ForceHost: an open-source toolchain for generating firmware embedding the authoring and rendering of audio and force-feedback haptics",
+                "authors": [
+                    ["Christian", "Frisson"],
+                    ["Mathias", "Kirkegaard"],
+                    ["Thomas", "Pietrzak"],
+                    ["Marcelo", "Wanderley"]
+                ],
+                "conference": "22nd International Conference on New Interfaces for Musical Expression",
+                "booktitle": "Proceedings of the International Conference on New Interfaces for Musical Expression",
+                "series": "NIME",
+                "year": 2022,
+                "location": {
+                    "city": "Auckland",
+                    "country": "New Zealand"
+                },
+                "date": {
+                    "start": "2022-06-28",
+                    "end": "2022-07-01"
+                }
+            }],
+            "eventName": "NIME",
+            "eventYear": 2022,
+            "thumb": {
+                "stem": "ForceHostNIME2022.jpg",
+                "width": 424,
+                "height": 239
+            },
+            "image": {
+                "stem": "ForceHostNIME2022.jpg"
+            },
+            "video": {
+                "host": "youtube",
+                "id": "smFpkdw-J2w"
+            }
+        }, {
             "title": "TorqueTuner",
             "subtitle": "A self contained module for designing rotary haptic force feedback for digital musical instruments",
             "contribs": [{
