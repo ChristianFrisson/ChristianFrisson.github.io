@@ -21,9 +21,16 @@ function initProjects(thumbHeight) {
             .attr("class", "item thumb")
         article.append(function(d) {
             var h3 = document.createElement("h3");
-            var award = ( d.publications.filter(p => p.award !== undefined).length > 0 );
-
-            var innerHTML = d.title;
+            var innerHTML = '';
+            if (d.url !== undefined){
+                innerHTML += "<a href=\""
+                innerHTML += d.url
+                innerHTML += "\">"
+            }
+            innerHTML += d.title;
+            if (d.url !== undefined){
+                innerHTML += "</a>"
+            }
             innerHTML += " (";
             if (d.eventName !== undefined) {
                 innerHTML += d.eventName;
@@ -36,11 +43,14 @@ function initProjects(thumbHeight) {
             }
             innerHTML += ")";
 
-            if(award){
-                innerHTML += "";
-                innerHTML += "<i class='fas fa-";
-                innerHTML += "star"
-                innerHTML += "'></i> ";
+            if(d.publications !== undefined){
+                var award = ( d.publications.filter(p => p.award !== undefined).length > 0 );
+                if(award){
+                    innerHTML += "";
+                    innerHTML += "<i class='fas fa-";
+                    innerHTML += "star"
+                    innerHTML += "'></i> ";
+                }
             }
 
             h3.innerHTML = innerHTML;
@@ -49,6 +59,9 @@ function initProjects(thumbHeight) {
         article.append(function(d) {
                 var a = document.createElement("a");
                 a.className = "image";
+                if (d.image !== undefined && d.image.stem !== undefined) {
+                    a.setAttribute("id", "link-"+d.image.stem.split(".")[0]);
+                }
                 if (d.video !== undefined) {
                     if (d.video.host === "vimeo"){
                         a.href = "http://vimeo.com/" + d.video.id;
@@ -77,7 +90,15 @@ function initProjects(thumbHeight) {
                 d.caption +="'></i> ";
                 d.caption +="project: ";*/
 
+                if (d.url !== undefined){
+                    d.caption += "<a href=\""
+                    d.caption += d.url
+                    d.caption += "\">"
+                }
                 d.caption += d.title;
+                if (d.url !== undefined){
+                    d.caption += "</a>"
+                }
 
                 if (d.publications === undefined) {
                     
@@ -192,20 +213,20 @@ function initProjects(thumbHeight) {
                         //}
                     });
                     d.caption += "</li>";
-                }
 
-                var awards = d.publications.filter(p => p.award !== undefined);
-                if(awards.length > 0){
-                    var award = awards[0].award;
-                    d.caption += "<li>"
-                    d.caption += "<i class='fas fa-";
-                    d.caption += "star"
-                    d.caption += "'></i> ";
-                    d.caption += "award: "
-                    if (award.url !== undefined) d.caption += "<a href='" + award.url + "'>";
-                    d.caption += award.title;
-                    if (award.url !== undefined) d.caption += "</a>";
-                    d.caption += "</li>";
+                    var awards = d.publications.filter(p => p.award !== undefined);
+                    if(awards.length > 0){
+                        var award = awards[0].award;
+                        d.caption += "<li>"
+                        d.caption += "<i class='fas fa-";
+                        d.caption += "star"
+                        d.caption += "'></i> ";
+                        d.caption += "award: "
+                        if (award.url !== undefined) d.caption += "<a href='" + award.url + "'>";
+                        d.caption += award.title;
+                        if (award.url !== undefined) d.caption += "</a>";
+                        d.caption += "</li>";
+                    }
                 }
 
                 /*if (d.dataset !== undefined) {

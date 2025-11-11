@@ -510,6 +510,8 @@ var parallelism = (function($) { var _ = {
 						windowMargin: 100
                         
 					});
+					var banner = $('#link-shivers');
+					if (banner !== undefined) banner.click();
 
 				// Trigger resize event.
 					_.objects.window.trigger('resize');
@@ -577,6 +579,8 @@ var parallelism = (function($) { var _ = {
                         },
                         usePopupNav: true,
 					});
+					var banner = $('#link-shivers');
+					if (banner !== undefined) banner.click();
 
 			},
 

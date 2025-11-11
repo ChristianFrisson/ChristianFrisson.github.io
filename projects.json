@@ -1,6 +1,19 @@
 {
     "projects": [
 		{
+            "title": "Shivers Group",
+            "url": "https://ilab.ucalgary.ca/labs/shivers/",
+            "subtitle": "Please visit the <a href=\"https://ilab.ucalgary.ca/labs/shivers/\">Shivers Group</a><br/> at the University of Calgary<br/> for updates from 2025 on!",
+            "eventYear": "2025-",
+            "thumb": {
+                "stem": "shivers.png",
+                "width": 281,
+                "height": 281
+            },
+            "image": {
+                "stem": "shivers.png"
+            }
+        }, {
             "title": "LivePose ",
             "subtitle": "Democratizing Pose Detection for Multimedia Arts and Telepresence Applications on Open Edge Devices",
             "contribs": [{
